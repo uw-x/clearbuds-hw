@@ -45,22 +45,6 @@ F 8 "TDK-InvenSense" H 9200 4450 50  0001 L BNN "Field8"
 	1    9200 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L W25Q16JVSSIQ:W25Q16JVSSIQ U?
-U 1 1 5EC8EEFB
-P 8950 5650
-F 0 "U?" H 8950 6317 50  0000 C CNN
-F 1 "W25Q16JVSSIQ" H 8950 6226 50  0000 C CNN
-F 2 "SOIC127P790X216-8N" H 8950 5650 50  0001 L BNN
-F 3 "W25Q16JVSSIQ" H 8950 5650 50  0001 L BNN
-F 4 "SOIC-8 Winbond" H 8950 5650 50  0001 L BNN "Field4"
-F 5 "Winbond Electronics" H 8950 5650 50  0001 L BNN "Field5"
-F 6 "None" H 8950 5650 50  0001 L BNN "Field6"
-F 7 "Unavailable" H 8950 5650 50  0001 L BNN "Field7"
-F 8 "3v 16m-Bit Serial Flash Memory With Dual" H 8950 5650 50  0001 L BNN "Field8"
-	1    8950 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 2200 4050 2050
 $Comp
@@ -303,8 +287,6 @@ Wire Wire Line
 	1650 1850 1950 1850
 Wire Wire Line
 	1350 1500 1500 1500
-Text Label 700  2900 0    50   ~ 0
-ANT
 $Comp
 L Device:C C?
 U 1 1 5ECFC4AF
@@ -395,42 +377,22 @@ Wire Wire Line
 	4050 4100 4300 4100
 Wire Wire Line
 	4300 4200 4050 4200
-Text Label 7850 5450 2    50   ~ 0
+Text Label 7800 5450 2    50   ~ 0
 FLASH_CS
-Text Label 7850 5750 2    50   ~ 0
+Text Label 7800 5750 2    50   ~ 0
 FLASH_SI
-Text Label 7850 5850 2    50   ~ 0
+Text Label 7800 5850 2    50   ~ 0
 FLASH_SO
-Text Label 9900 5750 0    50   ~ 0
-FLASH_WP
-Text Label 9900 5850 0    50   ~ 0
+Text Label 9850 5750 0    50   ~ 0
 FLASH_HOLD
+Text Label 9850 5850 0    50   ~ 0
+FLASH_WP
 Wire Wire Line
-	7850 5450 8050 5450
+	7800 5450 8000 5450
 Wire Wire Line
-	7850 5750 8050 5750
+	7800 5750 8000 5750
 Wire Wire Line
-	7850 5850 8050 5850
-Text Label 4300 2700 0    50   ~ 0
-DEBUG_UART_RTS
-Text Label 4300 2800 0    50   ~ 0
-DEBUG_UART_TX
-Text Label 4300 2900 0    50   ~ 0
-DEBUG_UART_CTS
-Text Label 4300 3000 0    50   ~ 0
-DEBUG_UART_RX
-Wire Wire Line
-	4300 2700 4050 2700
-Wire Wire Line
-	4050 2800 4300 2800
-Wire Wire Line
-	4300 2900 4050 2900
-Wire Wire Line
-	4050 3000 4300 3000
-Text Label 4300 3500 0    50   ~ 0
-LED1
-Text Label 4300 3600 0    50   ~ 0
-LED2
+	7800 5850 8000 5850
 Wire Wire Line
 	4050 3500 4300 3500
 Wire Wire Line
@@ -631,21 +593,21 @@ D_N
 $Comp
 L dk_Tactile-Switches:B3U-1000P S?
 U 1 1 5EE8CEC8
-P 5200 3300
-F 0 "S?" H 5200 3597 60  0000 C CNN
-F 1 "B3U-1000P" H 5200 3491 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" H 5400 3500 60  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5400 3600 60  0001 L CNN
-F 4 "SW1020CT-ND" H 5400 3700 60  0001 L CNN "Digi-Key_PN"
-F 5 "B3U-1000P" H 5400 3800 60  0001 L CNN "MPN"
-F 6 "Switches" H 5400 3900 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 5400 4000 60  0001 L CNN "Family"
-F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5400 4100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357" H 5400 4200 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5400 4300 60  0001 L CNN "Description"
-F 11 "Omron Electronics Inc-EMC Div" H 5400 4400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5400 4500 60  0001 L CNN "Status"
-	1    5200 3300
+P 4900 3300
+F 0 "S?" H 4900 3597 60  0000 C CNN
+F 1 "B3U-1000P" H 4900 3491 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" H 5100 3500 60  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5100 3600 60  0001 L CNN
+F 4 "SW1020CT-ND" H 5100 3700 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3U-1000P" H 5100 3800 60  0001 L CNN "MPN"
+F 6 "Switches" H 5100 3900 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5100 4000 60  0001 L CNN "Family"
+F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5100 4100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357" H 5100 4200 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5100 4300 60  0001 L CNN "Description"
+F 11 "Omron Electronics Inc-EMC Div" H 5100 4400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5100 4500 60  0001 L CNN "Status"
+	1    4900 3300
 	1    0    0    -1  
 $EndComp
 Connection ~ 5000 2300
@@ -663,53 +625,51 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EE9ADA6
-P 5400 3400
-F 0 "#PWR?" H 5400 3150 50  0001 C CNN
-F 1 "GND" H 5405 3227 50  0000 C CNN
-F 2 "" H 5400 3400 50  0001 C CNN
-F 3 "" H 5400 3400 50  0001 C CNN
-	1    5400 3400
+P 5100 3400
+F 0 "#PWR?" H 5100 3150 50  0001 C CNN
+F 1 "GND" H 5105 3227 50  0000 C CNN
+F 2 "" H 5100 3400 50  0001 C CNN
+F 3 "" H 5100 3400 50  0001 C CNN
+	1    5100 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 3400 5400 3300
-Wire Wire Line
-	4050 3300 5000 3300
+	5100 3400 5100 3300
 $Comp
 L Device:C C?
 U 1 1 5EEA6237
-P 10500 5700
-F 0 "C?" H 10615 5746 50  0000 L CNN
-F 1 "100nF" H 10615 5655 50  0000 L CNN
-F 2 "" H 10538 5550 50  0001 C CNN
-F 3 "~" H 10500 5700 50  0001 C CNN
-	1    10500 5700
+P 10450 5700
+F 0 "C?" H 10565 5746 50  0000 L CNN
+F 1 "100nF" H 10565 5655 50  0000 L CNN
+F 2 "" H 10488 5550 50  0001 C CNN
+F 3 "~" H 10450 5700 50  0001 C CNN
+	1    10450 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 5750 9900 5750
+	9800 5750 9850 5750
 Wire Wire Line
-	9850 5850 9900 5850
+	9800 5850 9850 5850
 Wire Wire Line
-	10500 5850 10500 6050
+	10450 5850 10450 6050
 Wire Wire Line
-	10500 6050 9850 6050
+	10450 6050 9800 6050
 Wire Wire Line
-	10500 5550 10500 5250
+	10450 5550 10450 5250
 Wire Wire Line
-	10500 5250 9850 5250
+	10450 5250 9800 5250
 $Comp
 L power:GND #PWR?
 U 1 1 5EEBB0B9
-P 10500 6050
-F 0 "#PWR?" H 10500 5800 50  0001 C CNN
-F 1 "GND" H 10505 5877 50  0000 C CNN
-F 2 "" H 10500 6050 50  0001 C CNN
-F 3 "" H 10500 6050 50  0001 C CNN
-	1    10500 6050
+P 10450 6050
+F 0 "#PWR?" H 10450 5800 50  0001 C CNN
+F 1 "GND" H 10455 5877 50  0000 C CNN
+F 2 "" H 10450 6050 50  0001 C CNN
+F 3 "" H 10450 6050 50  0001 C CNN
+	1    10450 6050
 	1    0    0    -1  
 $EndComp
-Connection ~ 10500 6050
+Connection ~ 10450 6050
 Text Label 4300 4400 0    50   ~ 0
 FLASH_HOLD
 Wire Wire Line
@@ -740,15 +700,13 @@ Wire Wire Line
 	4050 4800 4300 4800
 Wire Wire Line
 	4050 4900 4300 4900
-Text Label 4300 2600 0    50   ~ 0
+Text Label 4150 2600 0    50   ~ 0
 SPI_CLK
-Wire Wire Line
-	4050 2600 4300 2600
 Text Label 4300 4900 0    50   ~ 0
 SPI_CS
 Wire Wire Line
-	7850 5550 8050 5550
-Text Label 7850 5550 2    50   ~ 0
+	7800 5550 8000 5550
+Text Label 7800 5550 2    50   ~ 0
 FLASH_SCLK
 Wire Wire Line
 	8400 3100 8600 3100
@@ -794,9 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 3500 9800 3500
 Connection ~ 9900 3600
-Wire Wire Line
-	8400 4350 8600 4350
-Text Label 8400 4350 2    50   ~ 0
+Text Label 8250 4350 0    50   ~ 0
 PDM_CLK
 $Comp
 L power:GND #PWR?
@@ -820,10 +776,6 @@ F 3 "" H 8600 4550 50  0001 C CNN
 	1    8600 4550
 	1    0    0    -1  
 $EndComp
-Text Label 10050 4450 0    50   ~ 0
-PDM_DATA
-Wire Wire Line
-	9800 4450 10050 4450
 $Comp
 L Device:Battery_Cell BAT?
 U 1 1 5EF31146
@@ -874,12 +826,12 @@ VDD_nRF
 $Comp
 L Analog_Switch:TS5A3159ADCKR U?
 U 1 1 5EF5D282
-P 6800 850
-F 0 "U?" H 6800 1092 50  0000 C CNN
-F 1 "TS5A3159ADCKR" H 6800 1001 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6800 550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf" H 6800 850 50  0001 C CNN
-	1    6800 850 
+P 6850 900
+F 0 "U?" H 6850 1142 50  0000 C CNN
+F 1 "TS5A3159ADCKR" H 6850 1051 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6850 600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf" H 6850 900 50  0001 C CNN
+	1    6850 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -896,30 +848,30 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EF74CAD
-P 8250 1450
-F 0 "#PWR?" H 8250 1200 50  0001 C CNN
-F 1 "GND" H 8255 1277 50  0000 C CNN
-F 2 "" H 8250 1450 50  0001 C CNN
-F 3 "" H 8250 1450 50  0001 C CNN
-	1    8250 1450
+P 8200 1500
+F 0 "#PWR?" H 8200 1250 50  0001 C CNN
+F 1 "GND" H 8205 1327 50  0000 C CNN
+F 2 "" H 8200 1500 50  0001 C CNN
+F 3 "" H 8200 1500 50  0001 C CNN
+	1    8200 1500
 	1    0    0    -1  
 $EndComp
 Text Label 2850 1500 3    50   ~ 0
 VDDH
-Text Label 7550 1250 0    50   ~ 0
+Text Label 7500 1300 0    50   ~ 0
 VBUS
-Text Label 6250 950  0    50   ~ 0
+Text Label 6300 1000 0    50   ~ 0
 VDDH
 Wire Wire Line
-	6250 950  6500 950 
-Text Label 7450 850  2    50   ~ 0
+	6300 1000 6550 1000
+Text Label 7500 900  2    50   ~ 0
 VBAT
 Wire Wire Line
-	7100 850  7450 850 
-Text Label 7450 1050 2    50   ~ 0
+	7150 900  7500 900 
+Text Label 7500 1100 2    50   ~ 0
 VBUS
 Wire Wire Line
-	7100 1050 7450 1050
+	7150 1100 7500 1100
 Connection ~ 4300 700 
 Connection ~ 4750 700 
 Wire Wire Line
@@ -993,22 +945,22 @@ VBAT
 $Comp
 L Analog_Switch:TS5A3159ADCKR U?
 U 1 1 5F101388
-P 8250 850
-F 0 "U?" H 8250 1092 50  0000 C CNN
-F 1 "TS5A3159ADCKR" H 8250 1001 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8250 550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf" H 8250 850 50  0001 C CNN
-	1    8250 850 
+P 8200 900
+F 0 "U?" H 8200 1142 50  0000 C CNN
+F 1 "TS5A3159ADCKR" H 8200 1051 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8200 600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf" H 8200 900 50  0001 C CNN
+	1    8200 900 
 	1    0    0    -1  
 $EndComp
-Text Label 7650 950  0    50   ~ 0
+Text Label 7600 1000 0    50   ~ 0
 VDD_nRF
-Text Label 8900 850  2    50   ~ 0
+Text Label 8850 900  2    50   ~ 0
 VBAT
 Wire Wire Line
-	8550 850  8900 850 
+	8500 900  8850 900 
 Wire Wire Line
-	7650 950  7950 950 
+	7600 1000 7900 1000
 $Comp
 L Analog_Switch:TS5A3159ADCKR U?
 U 2 1 5F114B28
@@ -1048,15 +1000,417 @@ Connection ~ 10150 1200
 $Comp
 L Device:R_Small_US R?
 U 1 1 5EF6F7FB
-P 8250 1350
-F 0 "R?" H 8318 1396 50  0000 L CNN
-F 1 "10MOhm" H 8318 1305 50  0000 L CNN
-F 2 "" H 8250 1350 50  0001 C CNN
-F 3 "~" H 8250 1350 50  0001 C CNN
-	1    8250 1350
+P 8200 1400
+F 0 "R?" H 8268 1446 50  0000 L CNN
+F 1 "10MOhm" H 8268 1355 50  0000 L CNN
+F 2 "" H 8200 1400 50  0001 C CNN
+F 3 "~" H 8200 1400 50  0001 C CNN
+	1    8200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L W25N01GVZEIG_TR:W25N01GVZEIG_TR U?
+U 1 1 5ED0DCFD
+P 8900 5650
+F 0 "U?" H 8900 6320 50  0000 C CNN
+F 1 "W25N01GVZEIG_TR" H 8900 6229 50  0000 C CNN
+F 2 "SON127P800X600X80-9N" H 8900 5650 50  0001 L BNN
+F 3 "None" H 8900 5650 50  0001 L BNN
+F 4 "W25N01GVZEIG TR" H 8900 5650 50  0001 L BNN "Field4"
+F 5 "IPC7351B" H 8900 5650 50  0001 L BNN "Field5"
+F 6 "WSON-8 Winbond" H 8900 5650 50  0001 L BNN "Field6"
+F 7 "Ic Flash 1gbit 104mhz 8wson" H 8900 5650 50  0001 L BNN "Field7"
+F 8 "Winbond Electronics" H 8900 5650 50  0001 L BNN "Field8"
+	1    8900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5ED1C5A9
+P 10450 2100
+F 0 "J?" H 10507 2567 50  0000 C CNN
+F 1 "USB_B_Micro" H 10507 2476 50  0000 C CNN
+F 2 "" H 10600 2050 50  0001 C CNN
+F 3 "~" H 10600 2050 50  0001 C CNN
+	1    10450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED1D7D8
+P 10450 2500
+F 0 "#PWR?" H 10450 2250 50  0001 C CNN
+F 1 "GND" H 10455 2327 50  0000 C CNN
+F 2 "" H 10450 2500 50  0001 C CNN
+F 3 "" H 10450 2500 50  0001 C CNN
+	1    10450 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 1250 8250 1250
-Connection ~ 8250 1250
+	10350 2500 10450 2500
+Connection ~ 10450 2500
+Wire Wire Line
+	10800 1900 10750 1900
+Wire Wire Line
+	10800 2100 10750 2100
+Wire Wire Line
+	10800 2200 10750 2200
+Text Label 10800 2100 0    50   ~ 0
+SWDCLK
+Text Label 10800 2200 0    50   ~ 0
+SWDIO
+Text Label 10800 1900 0    50   ~ 0
+VBUS
+Wire Wire Line
+	6850 1300 8200 1300
+Connection ~ 8200 1300
+Wire Wire Line
+	9800 2700 9800 2600
+Connection ~ 9800 2600
+Text Label 10150 2600 2    50   ~ 0
+VDD_nRF
+Text Label 10150 4250 2    50   ~ 0
+VDD_nRF
+Text Label 10200 5250 2    50   ~ 0
+VDD_nRF
+Wire Wire Line
+	9800 4250 10150 4250
+Wire Wire Line
+	9800 2600 10150 2600
+$Comp
+L Device:Antenna_Chip AE?
+U 1 1 5EDB03D9
+P 800 2600
+F 0 "AE?" H 980 2727 50  0000 L CNN
+F 1 "Antenna_Chip" H 980 2636 50  0000 L CNN
+F 2 "" H 700 2775 50  0001 C CNN
+F 3 "~" H 700 2775 50  0001 C CNN
+	1    800  2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  2900 700  2700
+Text Label 10200 4450 2    50   ~ 0
+PDM_DATA
+Wire Wire Line
+	9800 4450 10200 4450
+Wire Wire Line
+	8250 4350 8600 4350
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5EDE50AE
+P 5900 2000
+F 0 "D?" H 5900 2235 50  0000 C CNN
+F 1 "LED1" H 5900 2144 50  0000 C CNN
+F 2 "" V 5900 2000 50  0001 C CNN
+F 3 "~" V 5900 2000 50  0001 C CNN
+	1    5900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5EDE52E7
+P 5500 2000
+F 0 "D?" H 5500 2235 50  0000 C CNN
+F 1 "LED2" H 5500 2144 50  0000 C CNN
+F 2 "" V 5500 2000 50  0001 C CNN
+F 3 "~" V 5500 2000 50  0001 C CNN
+	1    5500 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5EDF7B31
+P 5500 1800
+F 0 "R?" V 5295 1800 50  0000 C CNN
+F 1 "220R" V 5386 1800 50  0000 C CNN
+F 2 "" H 5500 1800 50  0001 C CNN
+F 3 "~" H 5500 1800 50  0001 C CNN
+	1    5500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5EDF7F00
+P 5900 1800
+F 0 "R?" V 5695 1800 50  0000 C CNN
+F 1 "220R" V 5786 1800 50  0000 C CNN
+F 2 "" H 5900 1800 50  0001 C CNN
+F 3 "~" H 5900 1800 50  0001 C CNN
+	1    5900 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1700 5500 1650
+Wire Wire Line
+	5500 1650 5900 1650
+Wire Wire Line
+	5900 1650 5900 1700
+Text Label 5850 1650 2    50   ~ 0
+VDD_nRF
+Wire Wire Line
+	5250 2300 5500 2300
+Wire Wire Line
+	5500 2300 5500 2100
+Wire Wire Line
+	5900 2300 5900 2100
+Text Label 5450 2300 2    50   ~ 0
+LED1
+Text Label 5850 2300 2    50   ~ 0
+LED2
+Wire Wire Line
+	5650 2300 5900 2300
+Text Label 4300 3500 2    50   ~ 0
+LED1
+Text Label 4300 3600 2    50   ~ 0
+LED2
+Wire Wire Line
+	4050 3300 4700 3300
+Wire Wire Line
+	4050 2600 4150 2600
+Wire Wire Line
+	4050 2700 4150 2700
+Wire Wire Line
+	4050 2800 4150 2800
+Wire Wire Line
+	4050 2900 4150 2900
+Wire Wire Line
+	4050 3000 4150 3000
+Text Label 4650 3700 2    50   ~ 0
+PDM_DATA_EXT
+Wire Wire Line
+	4050 3700 4650 3700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EEDC55D
+P 6100 5900
+F 0 "TP?" V 6054 6088 50  0000 L CNN
+F 1 "TestPoint" V 6145 6088 50  0000 L CNN
+F 2 "" H 6300 5900 50  0001 C CNN
+F 3 "~" H 6300 5900 50  0001 C CNN
+	1    6100 5900
+	0    1    1    0   
+$EndComp
+Text Label 5550 5900 0    50   ~ 0
+PDM_DATA_EXT
+Wire Wire Line
+	5550 5900 6100 5900
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF27769
+P 6100 5700
+F 0 "TP?" V 6054 5888 50  0000 L CNN
+F 1 "TestPoint" V 6145 5888 50  0000 L CNN
+F 2 "" H 6300 5700 50  0001 C CNN
+F 3 "~" H 6300 5700 50  0001 C CNN
+	1    6100 5700
+	0    1    1    0   
+$EndComp
+Text Label 5550 5700 0    50   ~ 0
+PDM_CLK
+Wire Wire Line
+	5550 5700 6100 5700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF2E3C6
+P 6100 5000
+F 0 "TP?" V 6054 5188 50  0000 L CNN
+F 1 "TestPoint" V 6145 5188 50  0000 L CNN
+F 2 "" H 6300 5000 50  0001 C CNN
+F 3 "~" H 6300 5000 50  0001 C CNN
+	1    6100 5000
+	0    1    1    0   
+$EndComp
+Text Label 5550 5000 0    50   ~ 0
+VDD_nRF
+Wire Wire Line
+	5550 5000 6100 5000
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF356D3
+P 6100 5200
+F 0 "TP?" V 6054 5388 50  0000 L CNN
+F 1 "TestPoint" V 6145 5388 50  0000 L CNN
+F 2 "" H 6300 5200 50  0001 C CNN
+F 3 "~" H 6300 5200 50  0001 C CNN
+	1    6100 5200
+	0    1    1    0   
+$EndComp
+Text Label 5550 5200 0    50   ~ 0
+RESET_L
+Wire Wire Line
+	5550 5200 6100 5200
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF4905B
+P 6100 6600
+F 0 "TP?" V 6054 6788 50  0000 L CNN
+F 1 "TestPoint" V 6145 6788 50  0000 L CNN
+F 2 "" H 6300 6600 50  0001 C CNN
+F 3 "~" H 6300 6600 50  0001 C CNN
+	1    6100 6600
+	0    1    1    0   
+$EndComp
+Text Label 5550 6600 0    50   ~ 0
+SPI_MISO
+Wire Wire Line
+	5550 6600 6100 6600
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF49063
+P 6100 6400
+F 0 "TP?" V 6054 6588 50  0000 L CNN
+F 1 "TestPoint" V 6145 6588 50  0000 L CNN
+F 2 "" H 6300 6400 50  0001 C CNN
+F 3 "~" H 6300 6400 50  0001 C CNN
+	1    6100 6400
+	0    1    1    0   
+$EndComp
+Text Label 5550 6400 0    50   ~ 0
+SPI_MOSI
+Wire Wire Line
+	5550 6400 6100 6400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF4906B
+P 6100 6200
+F 0 "TP?" V 6054 6388 50  0000 L CNN
+F 1 "TestPoint" V 6145 6388 50  0000 L CNN
+F 2 "" H 6300 6200 50  0001 C CNN
+F 3 "~" H 6300 6200 50  0001 C CNN
+	1    6100 6200
+	0    1    1    0   
+$EndComp
+Text Label 5550 6200 0    50   ~ 0
+SPI_CLK
+Wire Wire Line
+	5550 6200 6100 6200
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF49073
+P 6100 6800
+F 0 "TP?" V 6054 6988 50  0000 L CNN
+F 1 "TestPoint" V 6145 6988 50  0000 L CNN
+F 2 "" H 6300 6800 50  0001 C CNN
+F 3 "~" H 6300 6800 50  0001 C CNN
+	1    6100 6800
+	0    1    1    0   
+$EndComp
+Text Label 5550 6800 0    50   ~ 0
+SPI_CS
+Wire Wire Line
+	5550 6800 6100 6800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF68066
+P 6100 5400
+F 0 "TP?" V 6054 5588 50  0000 L CNN
+F 1 "TestPoint" V 6145 5588 50  0000 L CNN
+F 2 "" H 6300 5400 50  0001 C CNN
+F 3 "~" H 6300 5400 50  0001 C CNN
+	1    6100 5400
+	0    1    1    0   
+$EndComp
+Text Label 5550 5400 0    50   ~ 0
+GND
+Wire Wire Line
+	5550 5400 6100 5400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF8F78A
+P 6100 4800
+F 0 "TP?" V 6054 4988 50  0000 L CNN
+F 1 "TestPoint" V 6145 4988 50  0000 L CNN
+F 2 "" H 6300 4800 50  0001 C CNN
+F 3 "~" H 6300 4800 50  0001 C CNN
+	1    6100 4800
+	0    1    1    0   
+$EndComp
+Text Label 5550 4800 0    50   ~ 0
+VDDH
+Wire Wire Line
+	5550 4800 6100 4800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EF973BF
+P 6100 4600
+F 0 "TP?" V 6054 4788 50  0000 L CNN
+F 1 "TestPoint" V 6145 4788 50  0000 L CNN
+F 2 "" H 6300 4600 50  0001 C CNN
+F 3 "~" H 6300 4600 50  0001 C CNN
+	1    6100 4600
+	0    1    1    0   
+$EndComp
+Text Label 5550 4600 0    50   ~ 0
+VBUS
+Wire Wire Line
+	5550 4600 6100 4600
+Text Label 4150 2700 0    50   ~ 0
+GPIO1
+Text Label 4150 2800 0    50   ~ 0
+GPIO2
+Text Label 4150 2900 0    50   ~ 0
+GPIO3
+Text Label 4150 3000 0    50   ~ 0
+GPIO4
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EFA9928
+P 6100 7450
+F 0 "TP?" V 6054 7638 50  0000 L CNN
+F 1 "TestPoint" V 6145 7638 50  0000 L CNN
+F 2 "" H 6300 7450 50  0001 C CNN
+F 3 "~" H 6300 7450 50  0001 C CNN
+	1    6100 7450
+	0    1    1    0   
+$EndComp
+Text Label 5550 7450 0    50   ~ 0
+GPIO3
+Wire Wire Line
+	5550 7450 6100 7450
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EFA9930
+P 6100 7250
+F 0 "TP?" V 6054 7438 50  0000 L CNN
+F 1 "TestPoint" V 6145 7438 50  0000 L CNN
+F 2 "" H 6300 7250 50  0001 C CNN
+F 3 "~" H 6300 7250 50  0001 C CNN
+	1    6100 7250
+	0    1    1    0   
+$EndComp
+Text Label 5550 7250 0    50   ~ 0
+GPIO2
+Wire Wire Line
+	5550 7250 6100 7250
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EFA9938
+P 6100 7050
+F 0 "TP?" V 6054 7238 50  0000 L CNN
+F 1 "TestPoint" V 6145 7238 50  0000 L CNN
+F 2 "" H 6300 7050 50  0001 C CNN
+F 3 "~" H 6300 7050 50  0001 C CNN
+	1    6100 7050
+	0    1    1    0   
+$EndComp
+Text Label 5550 7050 0    50   ~ 0
+GPIO1
+Wire Wire Line
+	5550 7050 6100 7050
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EFA9940
+P 6100 7650
+F 0 "TP?" V 6054 7838 50  0000 L CNN
+F 1 "TestPoint" V 6145 7838 50  0000 L CNN
+F 2 "" H 6300 7650 50  0001 C CNN
+F 3 "~" H 6300 7650 50  0001 C CNN
+	1    6100 7650
+	0    1    1    0   
+$EndComp
+Text Label 5550 7650 0    50   ~ 0
+GPIO4
+Wire Wire Line
+	5550 7650 6100 7650
 $EndSCHEMATC
