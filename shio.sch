@@ -224,19 +224,19 @@ F 3 "" H 10750 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10750 6250
-Text Label 4250 4750 2    50   ~ 0
+Text Label 4450 4750 2    50   ~ 0
 ACCEL_INT1
-Text Label 4250 4850 2    50   ~ 0
+Text Label 4450 4850 2    50   ~ 0
 ACCEL_INT2
-Text Label 4250 5150 2    50   ~ 0
+Text Label 4450 5150 2    50   ~ 0
 PDM_DATA
-Text Label 1000 6350 0    50   ~ 0
+Text Label 800  6350 0    50   ~ 0
 SPI_MOSI
-Text Label 4200 5950 2    50   ~ 0
+Text Label 4400 5950 2    50   ~ 0
 SPI_MISO
-Text Label 1000 4150 0    50   ~ 0
+Text Label 800  4150 0    50   ~ 0
 SPI_CLK
-Text Label 4200 6050 2    50   ~ 0
+Text Label 4400 6050 2    50   ~ 0
 SPI_CS
 Wire Wire Line
 	8100 5750 8300 5750
@@ -603,9 +603,9 @@ Text Label 3550 3100 2    50   ~ 0
 LED2
 Wire Wire Line
 	3350 3100 3600 3100
-Text Label 1000 4950 0    50   ~ 0
+Text Label 800  4950 0    50   ~ 0
 LED1
-Text Label 1000 5050 0    50   ~ 0
+Text Label 800  5050 0    50   ~ 0
 LED2
 $Comp
 L Connector:TestPoint TP?
@@ -1054,48 +1054,48 @@ Connection ~ 3350 6850
 Wire Wire Line
 	3350 7350 3450 7350
 Connection ~ 3350 7350
-Text Label 1000 6050 0    50   ~ 0
+Text Label 800  6050 0    50   ~ 0
 FLASH_HOLD
-Text Label 1000 5950 0    50   ~ 0
+Text Label 800  5950 0    50   ~ 0
 FLASH_WP
-Text Label 1000 5850 0    50   ~ 0
+Text Label 800  5850 0    50   ~ 0
 FLASH_SO
-Text Label 1000 5750 0    50   ~ 0
+Text Label 800  5750 0    50   ~ 0
 FLASH_SI
-Text Label 1000 5650 0    50   ~ 0
+Text Label 800  5650 0    50   ~ 0
 FLASH_SCLK
-Text Label 1000 5450 0    50   ~ 0
+Text Label 800  5450 0    50   ~ 0
 FLASH_CS
 Wire Wire Line
-	1000 4950 1600 4950
+	800  4950 1400 4950
 Wire Wire Line
-	1000 5050 1600 5050
+	800  5050 1400 5050
 Wire Wire Line
-	1000 5450 1600 5450
+	800  5450 1400 5450
 Wire Wire Line
 	1000 5550 1600 5550
 Wire Wire Line
-	1000 5650 1600 5650
+	800  5650 1400 5650
 Wire Wire Line
-	1000 5750 1600 5750
+	800  5750 1400 5750
 Wire Wire Line
-	1000 5850 1600 5850
+	800  5850 1400 5850
 Wire Wire Line
-	1000 5950 1600 5950
+	800  5950 1400 5950
 Wire Wire Line
-	1000 6050 1600 6050
+	800  6050 1400 6050
 Wire Wire Line
-	3800 5150 4250 5150
+	4000 5150 4450 5150
 Wire Wire Line
-	3800 4850 4250 4850
+	4000 4850 4450 4850
 Wire Wire Line
-	3800 4750 4250 4750
+	4000 4750 4450 4750
 Wire Wire Line
-	1000 6350 1600 6350
+	800  6350 1400 6350
 Wire Wire Line
-	3800 5950 4200 5950
+	4000 5950 4400 5950
 Wire Wire Line
-	4200 6050 3800 6050
+	4400 6050 4000 6050
 Wire Wire Line
 	4050 3000 4050 2950
 $Comp
@@ -1125,7 +1125,7 @@ BUTTON
 Wire Wire Line
 	1000 4550 1600 4550
 Wire Wire Line
-	1000 4150 1600 4150
+	800  4150 1400 4150
 Wire Wire Line
 	1000 4250 1600 4250
 Wire Wire Line
@@ -1151,8 +1151,8 @@ Wire Wire Line
 	4050 2450 4050 2550
 Connection ~ 4100 3750
 Wire Wire Line
-	3800 5050 4250 5050
-Text Label 4250 5050 2    50   ~ 0
+	4000 5050 4450 5050
+Text Label 4450 5050 2    50   ~ 0
 PDM_CLK
 $Comp
 L power:GND #PWR?
@@ -1343,4 +1343,218 @@ Wire Wire Line
 	10350 2450 10350 2500
 Wire Wire Line
 	10350 2150 10350 2000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F7AE6C2
+P 9600 2000
+F 0 "R?" V 9395 2000 50  0000 C CNN
+F 1 "NC" V 9486 2000 50  0000 C CNN
+F 2 "" H 9600 2000 50  0001 C CNN
+F 3 "~" H 9600 2000 50  0001 C CNN
+	1    9600 2000
+	0    1    1    0   
+$EndComp
+Text Label 9950 2000 2    50   ~ 0
+VBAT
+Text Label 9150 2000 0    50   ~ 0
+VDD_nRF
+Wire Wire Line
+	9150 2000 9500 2000
+Wire Wire Line
+	9700 2000 9950 2000
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F7E7E97
+P 9600 2350
+F 0 "R?" V 9395 2350 50  0000 C CNN
+F 1 "NC" V 9486 2350 50  0000 C CNN
+F 2 "" H 9600 2350 50  0001 C CNN
+F 3 "~" H 9600 2350 50  0001 C CNN
+	1    9600 2350
+	0    1    1    0   
+$EndComp
+Text Label 9150 2350 0    50   ~ 0
+VDDH
+Wire Wire Line
+	9150 2350 9500 2350
+Wire Wire Line
+	9700 2350 9950 2350
+Text Label 9950 2350 2    50   ~ 0
+VBAT
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F80B737
+P 3900 4750
+F 0 "R?" V 3695 4750 50  0000 C CNN
+F 1 "0R" V 3786 4750 50  0000 C CNN
+F 2 "" H 3900 4750 50  0001 C CNN
+F 3 "~" H 3900 4750 50  0001 C CNN
+	1    3900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F816328
+P 3900 4850
+F 0 "R?" V 3695 4850 50  0000 C CNN
+F 1 "0R" V 3786 4850 50  0000 C CNN
+F 2 "" H 3900 4850 50  0001 C CNN
+F 3 "~" H 3900 4850 50  0001 C CNN
+	1    3900 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F816716
+P 3900 5050
+F 0 "R?" V 3695 5050 50  0000 C CNN
+F 1 "0R" V 3786 5050 50  0000 C CNN
+F 2 "" H 3900 5050 50  0001 C CNN
+F 3 "~" H 3900 5050 50  0001 C CNN
+	1    3900 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F816CD0
+P 3900 5150
+F 0 "R?" V 3695 5150 50  0000 C CNN
+F 1 "0R" V 3786 5150 50  0000 C CNN
+F 2 "" H 3900 5150 50  0001 C CNN
+F 3 "~" H 3900 5150 50  0001 C CNN
+	1    3900 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F817034
+P 3900 5950
+F 0 "R?" V 3695 5950 50  0000 C CNN
+F 1 "0R" V 3786 5950 50  0000 C CNN
+F 2 "" H 3900 5950 50  0001 C CNN
+F 3 "~" H 3900 5950 50  0001 C CNN
+	1    3900 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F8176EB
+P 3900 6050
+F 0 "R?" V 3695 6050 50  0000 C CNN
+F 1 "0R" V 3786 6050 50  0000 C CNN
+F 2 "" H 3900 6050 50  0001 C CNN
+F 3 "~" H 3900 6050 50  0001 C CNN
+	1    3900 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F820908
+P 1500 6350
+F 0 "R?" V 1295 6350 50  0000 C CNN
+F 1 "0R" V 1386 6350 50  0000 C CNN
+F 2 "" H 1500 6350 50  0001 C CNN
+F 3 "~" H 1500 6350 50  0001 C CNN
+	1    1500 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F834439
+P 1500 6050
+F 0 "R?" V 1295 6050 50  0000 C CNN
+F 1 "0R" V 1386 6050 50  0000 C CNN
+F 2 "" H 1500 6050 50  0001 C CNN
+F 3 "~" H 1500 6050 50  0001 C CNN
+	1    1500 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F834969
+P 1500 5950
+F 0 "R?" V 1295 5950 50  0000 C CNN
+F 1 "0R" V 1386 5950 50  0000 C CNN
+F 2 "" H 1500 5950 50  0001 C CNN
+F 3 "~" H 1500 5950 50  0001 C CNN
+	1    1500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F834CB6
+P 1500 5850
+F 0 "R?" V 1295 5850 50  0000 C CNN
+F 1 "0R" V 1386 5850 50  0000 C CNN
+F 2 "" H 1500 5850 50  0001 C CNN
+F 3 "~" H 1500 5850 50  0001 C CNN
+	1    1500 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F8351E6
+P 1500 5750
+F 0 "R?" V 1295 5750 50  0000 C CNN
+F 1 "0R" V 1386 5750 50  0000 C CNN
+F 2 "" H 1500 5750 50  0001 C CNN
+F 3 "~" H 1500 5750 50  0001 C CNN
+	1    1500 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F83551C
+P 1500 5650
+F 0 "R?" V 1295 5650 50  0000 C CNN
+F 1 "0R" V 1386 5650 50  0000 C CNN
+F 2 "" H 1500 5650 50  0001 C CNN
+F 3 "~" H 1500 5650 50  0001 C CNN
+	1    1500 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F835C29
+P 1500 5450
+F 0 "R?" V 1295 5450 50  0000 C CNN
+F 1 "0R" V 1386 5450 50  0000 C CNN
+F 2 "" H 1500 5450 50  0001 C CNN
+F 3 "~" H 1500 5450 50  0001 C CNN
+	1    1500 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F8360B8
+P 1500 5050
+F 0 "R?" V 1295 5050 50  0000 C CNN
+F 1 "0R" V 1386 5050 50  0000 C CNN
+F 2 "" H 1500 5050 50  0001 C CNN
+F 3 "~" H 1500 5050 50  0001 C CNN
+	1    1500 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F8364EB
+P 1500 4950
+F 0 "R?" V 1295 4950 50  0000 C CNN
+F 1 "0R" V 1386 4950 50  0000 C CNN
+F 2 "" H 1500 4950 50  0001 C CNN
+F 3 "~" H 1500 4950 50  0001 C CNN
+	1    1500 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F837915
+P 1500 4150
+F 0 "R?" V 1295 4150 50  0000 C CNN
+F 1 "0R" V 1386 4150 50  0000 C CNN
+F 2 "" H 1500 4150 50  0001 C CNN
+F 3 "~" H 1500 4150 50  0001 C CNN
+	1    1500 4150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
