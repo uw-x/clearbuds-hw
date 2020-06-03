@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# W25N01GVZEIG_TR
+#
+DEF W25N01GVZEIG_TR U 0 40 Y Y 1 L N
+F0 "U" -700 539 50 H V L BNN
+F1 "W25N01GVZEIG_TR" -700 -657 50 H V L BNN
+F2 "SON127P800X600X80-9N" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "W25N01GVZEIG TR" 0 0 50 H I L BNN
+F5 "IPC7351B" 0 0 50 H I L BNN
+F6 "WSON-8 Winbond" 0 0 50 H I L BNN
+F7 "Ic Flash 1gbit 104mhz 8wson" 0 0 50 H I L BNN
+F8 "Winbond Electronics" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -700 500 700 500 N
+P 2 0 0 16 700 500 700 -500 N
+P 2 0 0 16 700 -500 -700 -500 N
+P 2 0 0 16 -700 -500 -700 500 N
+X CLK 6 -900 100 200 R 40 40 0 0 I C
+X DI(IO0) 5 -900 -100 200 R 40 40 0 0 B 
+X DO(IO1) 2 -900 -200 200 R 40 40 0 0 B 
+X VCC 8 900 400 200 L 40 40 0 0 W 
+X /HOLD(IO3) 7 900 -100 200 L 40 40 0 0 B 
+X /CS 1 -900 200 200 R 40 40 0 0 I 
+X /WP(IO2) 3 900 -200 200 L 40 40 0 0 B 
+X GND 4 900 -400 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

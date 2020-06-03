@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ICS-41350
+#
+DEF ICS-41350 MK 0 40 Y Y 1 L N
+F0 "MK" -403 303 50 H V L BNN
+F1 "ICS-41350" -403 -403 50 H V L BNN
+F2 "MIC_ICS-41350" 0 0 50 H I L BNN
+F3 "LGA-5 TDK-InvenSense" 0 0 50 H I L BNN
+F4 "Bottom Port PDM Low Power muti-Mode Microphone with high AOP Mode" 0 0 50 H I L BNN
+F5 "Good" 0 0 50 H I L BNN
+F6 "ICS-41350" 0 0 50 H I L BNN
+F7 "1.30 USD" 0 0 50 H I L BNN
+F8 "TDK-InvenSense" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 400 300 400 -300 N
+P 2 0 0 10 400 -300 -400 -300 N
+P 2 0 0 10 -400 -300 -400 300 N
+P 2 0 0 10 -400 300 400 300 N
+X VDD 5 600 200 200 L 40 40 0 0 W 
+X DATA 1 600 0 200 L 40 40 0 0 O 
+X GND 3 600 -200 200 L 40 40 0 0 W 
+X CLK 4 -600 100 200 R 40 40 0 0 I C
+X SELECT 2 -600 -100 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library
