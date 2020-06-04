@@ -5,4 +5,6 @@
   (lib (name NRF52840-QIAA-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/NRF52840-QIAA-R7.lib)(options "")(descr ""))
   (lib (name W25N01GVZEIG_TR)(type Legacy)(uri ${KIPRJMOD}/libraries/W25N01GVZEIG_TR.lib)(options "")(descr ""))
   (lib (name W25Q16JVSSIQ)(type Legacy)(uri ${KIPRJMOD}/libraries/W25Q16JVSSIQ.lib)(options "")(descr ""))
+  (lib (name MAX38640)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX38640.lib)(options "")(descr ""))
+  (lib (name LM66100)(type Legacy)(uri ${KIPRJMOD}/libraries/LM66100.lib)(options "")(descr ""))
 )
