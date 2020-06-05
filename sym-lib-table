@@ -7,4 +7,5 @@
   (lib (name W25Q16JVSSIQ)(type Legacy)(uri ${KIPRJMOD}/libraries/W25Q16JVSSIQ.lib)(options "")(descr ""))
   (lib (name MAX38640)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX38640.lib)(options "")(descr ""))
   (lib (name LM66100)(type Legacy)(uri ${KIPRJMOD}/libraries/LM66100.lib)(options "")(descr ""))
+  (lib (name CR1632)(type Legacy)(uri ${KIPRJMOD}/libraries/CR1632.lib)(options "")(descr ""))
 )
