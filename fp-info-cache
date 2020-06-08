@@ -1,4 +1,4 @@
-19408637335699090
+19405454105511090
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75803,13 +75803,6 @@ CR1632-THRU
 3
 3
 Shio
-LINX_BAT-HLD-001-THM
-
-
-0
-5
-5
-Shio
 LM66100DCKT
 
 
@@ -85399,13 +85392,6 @@ CR1632-THRU
 0
 3
 3
-maruchi-kicad-library
-LINX_BAT-HLD-001-THM
-
-
-0
-5
-5
 maruchi-kicad-library
 LM66100DCKT
 
