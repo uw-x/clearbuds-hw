@@ -652,8 +652,6 @@ NoConn ~ 1950 3950
 Wire Wire Line
 	1900 5450 1950 5450
 Wire Wire Line
-	1900 4950 1950 4950
-Wire Wire Line
 	1900 4150 1950 4150
 Wire Wire Line
 	1900 5750 1950 5750
@@ -676,8 +674,6 @@ Wire Wire Line
 Wire Wire Line
 	800  5450 1700 5450
 Wire Wire Line
-	1550 5050 1950 5050
-Wire Wire Line
 	800  4150 1700 4150
 Wire Wire Line
 	1600 5650 1950 5650
@@ -695,19 +691,6 @@ F 3 "~" H 1800 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R15
-U 1 1 5F8364EB
-P 1800 4950
-F 0 "R15" V 1750 4850 50  0000 C CNN
-F 1 "0R" V 1750 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 1800 4950 50  0001 C CNN
-F 3 "~" H 1800 4950 50  0001 C CNN
-	1    1800 4950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	800  4950 1700 4950
-$Comp
 L Device:R_Small_US R12
 U 1 1 5F837915
 P 1800 4150
@@ -718,19 +701,6 @@ F 3 "~" H 1800 4150 50  0001 C CNN
 	1    1800 4150
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_Small_US R16
-U 1 1 5F8360B8
-P 1450 5050
-F 0 "R16" V 1500 4950 50  0000 C CNN
-F 1 "0R" V 1500 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 1450 5050 50  0001 C CNN
-F 3 "~" H 1450 5050 50  0001 C CNN
-	1    1450 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	800  5050 1350 5050
 Wire Wire Line
 	800  4250 1950 4250
 Wire Wire Line
@@ -1832,39 +1802,6 @@ $EndComp
 Wire Wire Line
 	7900 1700 7950 1700
 $Comp
-L CR1632:CR1632 U7
-U 1 1 5FA2470C
-P 9750 2750
-F 0 "U7" H 9888 2719 50  0000 L CNN
-F 1 "CR1632" H 9888 2628 50  0000 L CNN
-F 2 "Shio:CR1632-THRU" H 9750 2750 50  0001 C CNN
-F 3 "" H 9750 2750 50  0001 C CNN
-	1    9750 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 2550 9650 2750
-$Comp
-L dk_USB-DVI-HDMI-Connectors:10118193-0001LF J1
-U 1 1 5FA5986B
-P 10500 2200
-F 0 "J1" H 10564 2945 60  0000 C CNN
-F 1 "10118193-0001LF" H 10564 2839 60  0000 C CNN
-F 2 "digikey-footprints:USB_Micro_B_Female_10118193-0001LF" H 10700 2400 60  0001 L CNN
-F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf" H 10700 2500 60  0001 L CNN
-F 4 "609-4616-1-ND" H 10700 2600 60  0001 L CNN "Digi-Key_PN"
-F 5 "10118193-0001LF" H 10700 2700 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 10700 2800 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 10700 2900 60  0001 L CNN "Family"
-F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf" H 10700 3000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380" H 10700 3100 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 10700 3200 60  0001 L CNN "Description"
-F 11 "Amphenol ICC (FCI)" H 10700 3300 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10700 3400 60  0001 L CNN "Status"
-	1    10500 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR028
 U 1 1 5FA8A219
 P 10400 2850
@@ -2042,8 +1979,6 @@ F 3 "" H 9650 3050 50  0001 C CNN
 	1    9650 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 2950 9650 3050
 $Comp
 L Device:Crystal_GND24_Small Y3
 U 1 1 5EE41895
@@ -2111,4 +2046,43 @@ Wire Wire Line
 Connection ~ 5400 1300
 Wire Wire Line
 	4900 2500 5150 2500
+$Comp
+L dk_USB-DVI-HDMI-Connectors:10118193-0001LF J1
+U 1 1 5FA5986B
+P 10500 2200
+F 0 "J1" H 10564 2945 60  0000 C CNN
+F 1 "10118193-0001LF" H 10564 2839 60  0000 C CNN
+F 2 "digikey-footprints:USB_Micro_B_Female_10118193-0001LF" H 10700 2400 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf" H 10700 2500 60  0001 L CNN
+F 4 "609-4616-1-ND" H 10700 2600 60  0001 L CNN "Digi-Key_PN"
+F 5 "10118193-0001LF" H 10700 2700 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 10700 2800 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 10700 2900 60  0001 L CNN "Family"
+F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf" H 10700 3000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380" H 10700 3100 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 10700 3200 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (FCI)" H 10700 3300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10700 3400 60  0001 L CNN "Status"
+	1    10500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4950 1950 4950
+Wire Wire Line
+	800  5050 1950 5050
+Wire Wire Line
+	9650 2550 9650 2600
+Wire Wire Line
+	9650 3050 9650 3000
+$Comp
+L BAT-HLD-001-THM:BAT-HLD-001-THM BT1
+U 1 1 5F42C7E6
+P 9650 2800
+F 0 "BT1" V 9696 2667 50  0000 R CNN
+F 1 "BAT-HLD-001-THM" V 9605 2667 50  0000 R CNN
+F 2 "maruchi-kicad-library:LINX_BAT-HLD-001-THM" H 9650 2800 50  0001 L BNN
+F 3 "Toshiba" H 9650 2800 50  0001 L BNN
+	1    9650 2800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

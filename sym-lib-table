@@ -8,4 +8,5 @@
   (lib (name MAX38640)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX38640.lib)(options "")(descr ""))
   (lib (name LM66100)(type Legacy)(uri ${KIPRJMOD}/libraries/LM66100.lib)(options "")(descr ""))
   (lib (name CR1632)(type Legacy)(uri ${KIPRJMOD}/libraries/CR1632.lib)(options "")(descr ""))
+  (lib (name BAT-HLD-001-THM)(type Legacy)(uri ${KIPRJMOD}/libraries/BAT-HLD-001-THM.lib)(options "")(descr ""))
 )
