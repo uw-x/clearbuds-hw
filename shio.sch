@@ -356,7 +356,7 @@ Text Label 10900 4500 2    50   ~ 0
 PDM_DATA
 Text Label 10900 4200 2    50   ~ 0
 ACCEL_INT2
-Text Label 10900 4100 2    50   ~ 0
+Text Label 6400 5600 0    50   ~ 0
 ACCEL_INT1
 Text Label 10900 4400 2    50   ~ 0
 PDM_CLK
@@ -422,7 +422,6 @@ NoConn ~ 9750 3600
 NoConn ~ 9750 5700
 NoConn ~ 9750 5600
 NoConn ~ 9750 5500
-NoConn ~ 7550 5600
 NoConn ~ 7550 5500
 NoConn ~ 7550 4600
 NoConn ~ 7550 4500
@@ -783,8 +782,6 @@ Wire Wire Line
 Connection ~ 7600 6200
 Wire Wire Line
 	7600 6200 7900 6200
-Wire Wire Line
-	9750 4100 10900 4100
 Wire Wire Line
 	9750 4200 10900 4200
 Wire Wire Line
@@ -2074,4 +2071,7 @@ Text Notes 9700 6050 0    50   ~ 10
 LOW FREQ CLOCK
 Text Notes 800  700  0    50   ~ 10
 SOURCES
+Wire Wire Line
+	6400 5600 7550 5600
+NoConn ~ 9750 4100
 $EndSCHEMATC

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 update=Monday, June 08, 2020 at 09:20:22 PM
-=======
-update=Monday, 08 June 2020 at 22:43:08
->>>>>>> Laying out tail
 version=1
 last_client=kicad
 [general]
@@ -26,14 +22,14 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.09999999999999999
-MinViaDiameter=0.25
+MinTrackWidth=0.06
+MinViaDiameter=0.35
 MinViaDrill=0.15
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.1
-ViaDiameter1=0.25
+ViaDiameter1=0.35
 ViaDrill1=0.15
 dPairWidth1=0.2
 dPairGap1=0.25
@@ -231,9 +227,9 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.06
+Clearance=0.1
 TrackWidth=0.1
-ViaDiameter=0.25
+ViaDiameter=0.35
 ViaDrill=0.15
 uViaDiameter=0.3
 uViaDrill=0.1
