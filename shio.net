@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/maruchikim/Projects/shio/hw/shio.sch)
-    (date "Monday, 08 June 2020 at 16:49:16")
+    (date "Monday, 08 June 2020 at 19:15:51")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
