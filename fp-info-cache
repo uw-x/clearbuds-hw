@@ -1,4 +1,4 @@
-19405454105511090
+19410228995375090
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75803,6 +75803,13 @@ CR1632-THRU
 3
 3
 Shio
+LINX_BAT-HLD-001-THM
+
+
+0
+5
+5
+Shio
 LM66100DCKT
 
 
@@ -80594,6 +80601,13 @@ TestPoint
 TestPoint_Pad_4.0x4.0mm
 SMD rectangular pad as test Point, square 4.0mm side length
 test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_D0.5mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
 0
 1
 1
@@ -85392,6 +85406,13 @@ CR1632-THRU
 0
 3
 3
+maruchi-kicad-library
+LINX_BAT-HLD-001-THM
+
+
+0
+5
+5
 maruchi-kicad-library
 LM66100DCKT
 
