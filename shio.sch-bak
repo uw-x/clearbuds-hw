@@ -356,7 +356,7 @@ Text Label 10900 4500 2    50   ~ 0
 PDM_DATA
 Text Label 10900 4200 2    50   ~ 0
 ACCEL_INT2
-Text Label 10900 4100 2    50   ~ 0
+Text Label 6400 5600 0    50   ~ 0
 ACCEL_INT1
 Text Label 10900 4400 2    50   ~ 0
 PDM_CLK
@@ -422,9 +422,7 @@ NoConn ~ 9750 3600
 NoConn ~ 9750 5700
 NoConn ~ 9750 5600
 NoConn ~ 9750 5500
-NoConn ~ 7550 5600
 NoConn ~ 7550 5500
-NoConn ~ 7550 4600
 NoConn ~ 7550 4500
 NoConn ~ 7550 4100
 NoConn ~ 7550 4000
@@ -748,12 +746,8 @@ F 3 "~" H 9900 1500 50  0001 C CNN
 	1    9900 1500
 	0    -1   1    0   
 $EndComp
-Text Label 10900 4600 2    50   ~ 0
+Text Label 6400 4600 0    50   ~ 0
 MIC_EN
-Wire Wire Line
-	10250 4600 10900 4600
-Wire Wire Line
-	10050 4600 9750 4600
 Text Label 10900 4000 2    50   ~ 0
 ACCEL_EN
 Text Label 6400 4700 0    50   ~ 0
@@ -784,8 +778,6 @@ Connection ~ 7600 6200
 Wire Wire Line
 	7600 6200 7900 6200
 Wire Wire Line
-	9750 4100 10900 4100
-Wire Wire Line
 	9750 4200 10900 4200
 Wire Wire Line
 	9750 4400 10900 4400
@@ -800,12 +792,12 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R32
 U 1 1 5FAB45C8
-P 10150 4600
-F 0 "R32" V 10200 4450 50  0000 C CNN
-F 1 "0R" V 10200 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 10150 4600 50  0001 C CNN
-F 3 "~" H 10150 4600 50  0001 C CNN
-	1    10150 4600
+P 7450 4600
+F 0 "R32" V 7500 4450 50  0000 C CNN
+F 1 "0R" V 7500 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 7450 4600 50  0001 C CNN
+F 3 "~" H 7450 4600 50  0001 C CNN
+	1    7450 4600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2074,4 +2066,10 @@ Text Notes 9700 6050 0    50   ~ 10
 LOW FREQ CLOCK
 Text Notes 800  700  0    50   ~ 10
 SOURCES
+Wire Wire Line
+	6400 5600 7550 5600
+NoConn ~ 9750 4100
+Wire Wire Line
+	7350 4600 6400 4600
+NoConn ~ 9750 4600
 $EndSCHEMATC
