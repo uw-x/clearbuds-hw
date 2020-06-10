@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/maruchikim/Projects/shio/hw/shio.sch)
-    (date "Tuesday, 09 June 2020 at 14:35:39")
+    (date "Tuesday, 09 June 2020 at 17:03:55")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -100,7 +100,7 @@
       (tstamp 5EC58567))
     (comp (ref TP16)
       (value TestPoint)
-      (footprint TestPoint:TestPoint_Pad_D0.5mm)
+      (footprint TestPoint:TestPoint_Pad_D1.0mm)
       (datasheet ~)
       (libsource (lib Connector) (part TestPoint) (description "test point"))
       (sheetpath (names /) (tstamps /))
@@ -351,7 +351,7 @@
       (tstamp 5FB2D1ED))
     (comp (ref TP14)
       (value TestPoint)
-      (footprint TestPoint:TestPoint_Pad_D0.5mm)
+      (footprint TestPoint:TestPoint_Pad_D1.0mm)
       (datasheet ~)
       (libsource (lib Connector) (part TestPoint) (description "test point"))
       (sheetpath (names /) (tstamps /))
