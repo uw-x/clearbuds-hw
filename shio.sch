@@ -328,26 +328,6 @@ Wire Wire Line
 	8800 2400 8450 2400
 Text Label 8800 2400 2    50   ~ 0
 VDDH
-$Comp
-L dk_RF-Antennas:2450AT18A100E ANT1
-U 1 1 5FA64328
-P 10800 3100
-F 0 "ANT1" H 10800 3347 60  0000 C CNN
-F 1 "2450AT18A100E" H 10800 3241 60  0000 C CNN
-F 2 "digikey-footprints:Antenna_1.6x3.2mm_2450AT18A100E" H 11000 3300 60  0001 L CNN
-F 3 "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf" H 11000 3400 60  0001 L CNN
-F 4 "712-1005-1-ND" H 11000 3500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2450AT18A100E" H 11000 3600 60  0001 L CNN "MPN"
-F 6 "RF/IF and RFID" H 11000 3700 60  0001 L CNN "Category"
-F 7 "RF Antennas" H 11000 3800 60  0001 L CNN "Family"
-F 8 "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf" H 11000 3900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/johanson-technology-inc/2450AT18A100E/712-1005-1-ND/1560834" H 11000 4000 60  0001 L CNN "DK_Detail_Page"
-F 10 "RF ANT 2.4GHZ CHIP SOLDER SMD" H 11000 4100 60  0001 L CNN "Description"
-F 11 "Johanson Technology Inc." H 11000 4200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 11000 4300 60  0001 L CNN "Status"
-	1    10800 3100
-	1    0    0    -1  
-$EndComp
 Text Label 10850 5400 2    50   ~ 0
 SPI_CS
 Text Label 10850 5300 2    50   ~ 0
@@ -500,71 +480,6 @@ Wire Wire Line
 	7700 2400 7350 2400
 Text Label 7700 2400 2    50   ~ 0
 VDDH
-Wire Wire Line
-	5450 5450 5100 5450
-Wire Wire Line
-	5450 5350 5100 5350
-Wire Wire Line
-	5450 5250 5100 5250
-Wire Wire Line
-	5450 5050 5100 5050
-Wire Wire Line
-	3900 5350 3450 5350
-Wire Wire Line
-	3900 5250 3450 5250
-Text Label 3350 4750 0    50   ~ 0
-ACCEL_EN
-Connection ~ 3900 4750
-Wire Wire Line
-	3900 4850 3900 4750
-Connection ~ 3850 5750
-Wire Wire Line
-	3850 5650 3900 5650
-Wire Wire Line
-	3850 5750 3850 5650
-Wire Wire Line
-	3850 5750 3900 5750
-Wire Wire Line
-	3850 5800 3850 5750
-$Comp
-L power:GND #PWR023
-U 1 1 5EF0819A
-P 3850 5800
-F 0 "#PWR023" H 3850 5550 50  0001 C CNN
-F 1 "GND" H 3855 5627 50  0000 C CNN
-F 2 "" H 3850 5800 50  0001 C CNN
-F 3 "" H 3850 5800 50  0001 C CNN
-	1    3850 5800
-	-1   0    0    -1  
-$EndComp
-Text Label 3450 5350 0    50   ~ 0
-ACCEL_INT2
-Text Label 3450 5250 0    50   ~ 0
-ACCEL_INT1
-Text Label 5450 5050 2    50   ~ 0
-SPI_CS
-Text Label 5450 5450 2    50   ~ 0
-SPI_MISO
-Text Label 5450 5350 2    50   ~ 0
-SPI_MOSI
-Text Label 5450 5250 2    50   ~ 0
-SPI_CLK
-$Comp
-L BMA400:BMA400 U5
-U 1 1 5EC56C4B
-P 4500 5250
-F 0 "U5" H 4500 6017 50  0000 C CNN
-F 1 "BMA400" H 4500 5926 50  0000 C CNN
-F 2 "Shio:XDCR_BMA400" H 4500 5250 50  0001 L BNN
-F 3 "BMA400" H 4500 5250 50  0001 L BNN
-F 4 "LGA-12 Bosch Tools" H 4500 5250 50  0001 L BNN "Field4"
-F 5 "Bosch Sensortec" H 4500 5250 50  0001 L BNN "Field5"
-F 6 "None" H 4500 5250 50  0001 L BNN "Field6"
-F 7 "Unavailable" H 4500 5250 50  0001 L BNN "Field7"
-F 8 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 12-LGA _2x2_" H 4500 5250 50  0001 L BNN "Field8"
-	1    4500 5250
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10200 750  10200 1400
 Connection ~ 10200 750 
@@ -923,33 +838,6 @@ Text Label 800  6600 0    50   ~ 0
 VDD_nRF
 Wire Wire Line
 	800  6600 1350 6600
-$Comp
-L Device:C C23
-U 1 1 5F0263EE
-P 3750 4900
-F 0 "C23" H 3865 4946 50  0000 L CNN
-F 1 "100nF" H 3865 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 3788 4750 50  0001 C CNN
-F 3 "~" H 3750 4900 50  0001 C CNN
-	1    3750 4900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 4750 3750 4750
-Connection ~ 3750 4750
-Wire Wire Line
-	3750 4750 3350 4750
-$Comp
-L power:GND #PWR0102
-U 1 1 5F03A122
-P 3750 5050
-F 0 "#PWR0102" H 3750 4800 50  0001 C CNN
-F 1 "GND" H 3600 5000 50  0000 C CNN
-F 2 "" H 3750 5050 50  0001 C CNN
-F 3 "" H 3750 5050 50  0001 C CNN
-	1    3750 5050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	800  6400 1350 6400
 Text Label 800  6400 0    50   ~ 0
@@ -1965,8 +1853,6 @@ Text Notes 4800 3450 0    50   ~ 10
 LEDS
 Text Notes 5600 3450 0    50   ~ 10
 BUTTON
-Text Notes 3350 4550 0    50   ~ 10
-ACCELEROMETER
 Text Notes 4800 6200 0    50   ~ 10
 FLASH
 Text Notes 2500 6200 0    50   ~ 10
@@ -2053,10 +1939,10 @@ Wire Wire Line
 	7350 4600 6400 4600
 NoConn ~ 9750 4600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR024
 U 1 1 5F2067A7
 P 10100 5500
-F 0 "#PWR?" H 10100 5250 50  0001 C CNN
+F 0 "#PWR024" H 10100 5250 50  0001 C CNN
 F 1 "GND" H 10105 5327 50  0000 C CNN
 F 2 "" H 10100 5500 50  0001 C CNN
 F 3 "" H 10100 5500 50  0001 C CNN
@@ -2084,4 +1970,188 @@ ACCEL_INT1
 Wire Wire Line
 	9750 4300 10900 4300
 NoConn ~ 7550 5600
+Text Label 10600 3100 2    50   ~ 0
+ANT
+$Comp
+L Device:C C24
+U 1 1 5EEC9FE3
+P 5050 2600
+F 0 "C24" V 5300 2550 50  0000 L CNN
+F 1 "1pF" V 5200 2550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5088 2450 50  0001 C CNN
+F 3 "~" H 5050 2600 50  0001 C CNN
+	1    5050 2600
+	0    1    1    0   
+$EndComp
+Text Label 4700 2600 0    50   ~ 0
+ANT
+Wire Wire Line
+	4700 2600 4900 2600
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5EF8C668
+P 5100 2300
+F 0 "TP19" V 5054 2488 50  0000 L CNN
+F 1 "EXT_ANT" V 5145 2488 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5300 2300 50  0001 C CNN
+F 3 "~" H 5300 2300 50  0001 C CNN
+	1    5100 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 2300 5100 2300
+Text Label 4700 2300 0    50   ~ 0
+EXT_ANT
+Text Notes 3350 4550 0    50   ~ 10
+ACCELEROMETER
+$Comp
+L power:GND #PWR0102
+U 1 1 5F03A122
+P 3750 5050
+F 0 "#PWR0102" H 3750 4800 50  0001 C CNN
+F 1 "GND" H 3600 5000 50  0000 C CNN
+F 2 "" H 3750 5050 50  0001 C CNN
+F 3 "" H 3750 5050 50  0001 C CNN
+	1    3750 5050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4750 3350 4750
+Connection ~ 3750 4750
+Wire Wire Line
+	3900 4750 3750 4750
+$Comp
+L Device:C C23
+U 1 1 5F0263EE
+P 3750 4900
+F 0 "C23" H 3865 4946 50  0000 L CNN
+F 1 "100nF" H 3865 4855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3788 4750 50  0001 C CNN
+F 3 "~" H 3750 4900 50  0001 C CNN
+	1    3750 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BMA400:BMA400 U5
+U 1 1 5EC56C4B
+P 4500 5250
+F 0 "U5" H 4500 6017 50  0000 C CNN
+F 1 "BMA400" H 4500 5926 50  0000 C CNN
+F 2 "Shio:XDCR_BMA400" H 4500 5250 50  0001 L BNN
+F 3 "BMA400" H 4500 5250 50  0001 L BNN
+F 4 "LGA-12 Bosch Tools" H 4500 5250 50  0001 L BNN "Field4"
+F 5 "Bosch Sensortec" H 4500 5250 50  0001 L BNN "Field5"
+F 6 "None" H 4500 5250 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 4500 5250 50  0001 L BNN "Field7"
+F 8 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 12-LGA _2x2_" H 4500 5250 50  0001 L BNN "Field8"
+	1    4500 5250
+	-1   0    0    -1  
+$EndComp
+Text Label 5450 5250 2    50   ~ 0
+SPI_CLK
+Text Label 5450 5350 2    50   ~ 0
+SPI_MOSI
+Text Label 5450 5450 2    50   ~ 0
+SPI_MISO
+Text Label 5450 5050 2    50   ~ 0
+SPI_CS
+Text Label 3450 5250 0    50   ~ 0
+ACCEL_INT1
+Text Label 3450 5350 0    50   ~ 0
+ACCEL_INT2
+$Comp
+L power:GND #PWR023
+U 1 1 5EF0819A
+P 3850 5800
+F 0 "#PWR023" H 3850 5550 50  0001 C CNN
+F 1 "GND" H 3855 5627 50  0000 C CNN
+F 2 "" H 3850 5800 50  0001 C CNN
+F 3 "" H 3850 5800 50  0001 C CNN
+	1    3850 5800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5800 3850 5750
+Wire Wire Line
+	3850 5750 3900 5750
+Wire Wire Line
+	3850 5750 3850 5650
+Wire Wire Line
+	3850 5650 3900 5650
+Connection ~ 3850 5750
+Wire Wire Line
+	3900 4850 3900 4750
+Connection ~ 3900 4750
+Text Label 3350 4750 0    50   ~ 0
+ACCEL_EN
+Wire Wire Line
+	3900 5250 3450 5250
+Wire Wire Line
+	3900 5350 3450 5350
+Wire Wire Line
+	5450 5050 5100 5050
+Wire Wire Line
+	5450 5250 5100 5250
+Wire Wire Line
+	5450 5350 5100 5350
+Wire Wire Line
+	5450 5450 5100 5450
+$Comp
+L Device:L L6
+U 1 1 5EECA836
+P 5750 2600
+F 0 "L6" V 5569 2600 50  0000 C CNN
+F 1 "3.9nH" V 5660 2600 50  0000 C CNN
+F 2 "Inductor_SMD:L_0201_0603Metric" H 5750 2600 50  0001 C CNN
+F 3 "~" H 5750 2600 50  0001 C CNN
+	1    5750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_RF-Antennas:2450AT18A100E ANT1
+U 1 1 5FA64328
+P 6100 2600
+F 0 "ANT1" H 6100 2847 60  0000 C CNN
+F 1 "2450AT18A100E" H 6100 2741 60  0000 C CNN
+F 2 "digikey-footprints:Antenna_1.6x3.2mm_2450AT18A100E" H 6300 2800 60  0001 L CNN
+F 3 "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf" H 6300 2900 60  0001 L CNN
+F 4 "712-1005-1-ND" H 6300 3000 60  0001 L CNN "Digi-Key_PN"
+F 5 "2450AT18A100E" H 6300 3100 60  0001 L CNN "MPN"
+F 6 "RF/IF and RFID" H 6300 3200 60  0001 L CNN "Category"
+F 7 "RF Antennas" H 6300 3300 60  0001 L CNN "Family"
+F 8 "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf" H 6300 3400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/johanson-technology-inc/2450AT18A100E/712-1005-1-ND/1560834" H 6300 3500 60  0001 L CNN "DK_Detail_Page"
+F 10 "RF ANT 2.4GHZ CHIP SOLDER SMD" H 6300 3600 60  0001 L CNN "Description"
+F 11 "Johanson Technology Inc." H 6300 3700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6300 3800 60  0001 L CNN "Status"
+	1    6100 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 2600
+Wire Wire Line
+	5300 2600 5600 2600
+Wire Wire Line
+	5200 2600 5300 2600
+$Comp
+L power:GND #PWR08
+U 1 1 5EF3F919
+P 5300 2900
+F 0 "#PWR08" H 5300 2650 50  0001 C CNN
+F 1 "GND" H 5305 2727 50  0000 C CNN
+F 2 "" H 5300 2900 50  0001 C CNN
+F 3 "" H 5300 2900 50  0001 C CNN
+	1    5300 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:L L7
+U 1 1 5EECA3DD
+P 5300 2750
+F 0 "L7" H 5150 2800 50  0000 C CNN
+F 1 "2.7nH" H 5150 2700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0201_0603Metric" H 5300 2750 50  0001 C CNN
+F 3 "~" H 5300 2750 50  0001 C CNN
+	1    5300 2750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
