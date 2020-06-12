@@ -1823,9 +1823,7 @@ F 2 "Shio:XDCR_BMA400" H 3600 5300 50  0001 L BNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMA400-DS000.pdf" H 3600 5300 50  0001 L BNN
 F 4 "LGA-12" H 3600 5300 50  0001 L BNN "Package"
 F 5 "Bosch Sensortec" H 3600 5300 50  0001 L BNN "Manufacturer"
-F 6 "None" H 3600 5300 50  0001 L BNN "Field6"
-F 7 "None" H 3600 5300 50  0001 L BNN "Field7"
-F 8 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 12-LGA _2x2_" H 3600 5300 50  0001 L BNN "Description"
+F 6 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 12-LGA _2x2_" H 3600 5300 50  0001 L BNN "Description"
 	1    3600 5300
 	-1   0    0    -1  
 $EndComp
