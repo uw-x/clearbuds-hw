@@ -334,55 +334,8 @@ Text Label 10950 4150 2    50   ~ 0
 ACCEL_INT2
 Text Label 10950 4350 2    50   ~ 0
 PDM_CLK
-Wire Wire Line
-	10650 3050 10950 3050
-$Comp
-L power:GND #PWR020
-U 1 1 5ECC4EC4
-P 10350 3350
-F 0 "#PWR020" H 10350 3100 50  0001 C CNN
-F 1 "GND" H 10355 3177 50  0000 C CNN
-F 2 "" H 10350 3350 50  0001 C CNN
-F 3 "" H 10350 3350 50  0001 C CNN
-	1    10350 3350
-	1    0    0    -1  
-$EndComp
-Connection ~ 10350 3050
-$Comp
-L Device:L L5
-U 1 1 5EDAB8E2
-P 10500 3050
-F 0 "L5" V 10319 3050 50  0000 C CNN
-F 1 "4.7nH" V 10410 3050 50  0000 C CNN
-F 2 "Inductor_SMD:L_0201_0603Metric" H 10500 3050 50  0001 C CNN
-F 3 "~" H 10500 3050 50  0001 C CNN
-	1    10500 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C16
-U 1 1 5ECC1A44
-P 10350 3200
-F 0 "C16" H 10465 3246 50  0000 L CNN
-F 1 "1pF" H 10465 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 10388 3050 50  0001 C CNN
-F 3 "~" H 10350 3200 50  0001 C CNN
-	1    10350 3200
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9950 3350
 NoConn ~ 9950 3250
-$Comp
-L Device:L L4
-U 1 1 5ECBE1B9
-P 10200 3050
-F 0 "L4" V 10019 3050 50  0000 C CNN
-F 1 "3.9nH" V 10110 3050 50  0000 C CNN
-F 2 "Inductor_SMD:L_0201_0603Metric" H 10200 3050 50  0001 C CNN
-F 3 "~" H 10200 3050 50  0001 C CNN
-	1    10200 3050
-	0    1    1    0   
-$EndComp
 NoConn ~ 9950 5050
 NoConn ~ 9950 4950
 NoConn ~ 9950 4850
@@ -503,7 +456,10 @@ P 9700 750
 F 0 "L3" V 9890 750 50  0000 C CNN
 F 1 "10uH" V 9799 750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 9700 750 50  0001 C CNN
-F 3 "~" H 9700 750 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf?ref_disty=digikey" H 9700 750 50  0001 C CNN
+F 4 "10µH Shielded Multilayer Inductor 300mA 600mOhm 0603 (1608 Metric)" V 9700 750 50  0001 C CNN "Description"
+F 5 "TDK" V 9700 750 50  0001 C CNN "Manufacturer"
+F 6 "MLZ1608N100LT000" V 9700 750 50  0001 C CNN "MPN"
 	1    9700 750 
 	0    1    -1   0   
 $EndComp
@@ -518,23 +474,7 @@ F 3 "~" H 9900 1300 50  0001 C CNN
 	1    9900 1300
 	0    -1   1    0   
 $EndComp
-Connection ~ 8000 1000
-Wire Wire Line
-	8000 1500 7750 1500
-Connection ~ 8150 1500
-$Comp
-L power:GND #PWR06
-U 1 1 5F24DC3B
-P 8150 1500
-F 0 "#PWR06" H 8150 1250 50  0001 C CNN
-F 1 "GND" H 8155 1327 50  0000 C CNN
-F 2 "" H 8150 1500 50  0001 C CNN
-F 3 "" H 8150 1500 50  0001 C CNN
-	1    8150 1500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 1500 8150 1500
+Connection ~ 7800 1000
 Wire Wire Line
 	10400 1500 10400 1600
 Connection ~ 10400 1500
@@ -557,6 +497,7 @@ F 0 "C1" H 11015 946 50  0000 L CNN
 F 1 "1uF" H 11015 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10938 750 50  0001 C CNN
 F 3 "~" H 10900 900 50  0001 C CNN
+F 4 "Capacitor, 0402, X7R, ±10%" H 10900 900 50  0001 C CNN "Description"
 	1    10900 900 
 	-1   0    0    -1  
 $EndComp
@@ -568,6 +509,7 @@ F 0 "C2" H 10665 946 50  0000 L CNN
 F 1 "47nF" H 10665 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 10588 750 50  0001 C CNN
 F 3 "~" H 10550 900 50  0001 C CNN
+F 4 "Capacitor, 0201, X7R, ±10%" H 10550 900 50  0001 C CNN "Description"
 	1    10550 900 
 	-1   0    0    -1  
 $EndComp
@@ -584,6 +526,7 @@ F 0 "C3" V 9850 900 50  0000 C CNN
 F 1 "4.7uF" V 9850 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9938 850 50  0001 C CNN
 F 3 "~" H 9900 1000 50  0001 C CNN
+F 4 "Capacitor, 0402, X7R, ±10%" V 9900 1000 50  0001 C CNN "Description"
 	1    9900 1000
 	0    -1   1    0   
 $EndComp
@@ -598,31 +541,6 @@ F 3 "" H 10400 1600 50  0001 C CNN
 	1    10400 1600
 	-1   0    0    -1  
 $EndComp
-Connection ~ 8000 1500
-Wire Wire Line
-	8000 1000 8000 1200
-$Comp
-L Device:C C8
-U 1 1 5F25D0D1
-P 7750 1350
-F 0 "C8" H 7800 1450 50  0000 L CNN
-F 1 "4.7uF" H 7800 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7788 1200 50  0001 C CNN
-F 3 "~" H 7750 1350 50  0001 C CNN
-	1    7750 1350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5F25C9E7
-P 8000 1350
-F 0 "C7" H 7850 1450 50  0000 L CNN
-F 1 "4.7uF" H 7750 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 1200 50  0001 C CNN
-F 3 "~" H 8000 1350 50  0001 C CNN
-	1    8000 1350
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:L L2
 U 1 1 5ED2B364
@@ -630,7 +548,10 @@ P 10000 750
 F 0 "L2" V 10190 750 50  0000 C CNN
 F 1 "15nH" V 10099 750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0201_0603Metric" H 10000 750 50  0001 C CNN
-F 3 "~" H 10000 750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0015.pdf" H 10000 750 50  0001 C CNN
+F 4 "Murata Electronics" V 10000 750 50  0001 C CNN "Manufacturer"
+F 5 "LQP03TN15NJ02D" V 10000 750 50  0001 C CNN "MPN"
+F 6 "15nH Unshielded Thick Film Inductor 250mA 700mOhm Max 0201 (0603 Metric)" V 10000 750 50  0001 C CNN "Description"
 	1    10000 750 
 	0    1    -1   0   
 $EndComp
@@ -638,10 +559,11 @@ $Comp
 L Device:C C10
 U 1 1 5ED1ABE9
 P 9900 1500
-F 0 "C10" V 9850 1400 50  0000 C CNN
+F 0 "C10" V 9850 1350 50  0000 C CNN
 F 1 "820pF" V 9850 1700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 9938 1350 50  0001 C CNN
 F 3 "~" H 9900 1500 50  0001 C CNN
+F 4 "Capacitor, 0201, X7R, ±10%" V 9900 1500 50  0001 C CNN "Description"
 	1    9900 1500
 	0    -1   1    0   
 $EndComp
@@ -838,12 +760,7 @@ $EndComp
 Wire Wire Line
 	10650 2300 10650 2350
 Wire Wire Line
-	10200 2000 10650 2000
-Connection ~ 10200 2000
-Wire Wire Line
 	9750 2300 9750 2350
-Wire Wire Line
-	9750 2000 10200 2000
 Connection ~ 9750 2000
 Wire Wire Line
 	9300 2300 9300 2350
@@ -971,18 +888,8 @@ F 0 "C12" H 9415 2196 50  0000 L CNN
 F 1 "1uF" H 9415 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9338 2000 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
+F 4 "Capacitor, 0402, X7R, ±10%" H 9300 2150 50  0001 C CNN "Description"
 	1    9300 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C15
-U 1 1 5EE7D460
-P 10650 2150
-F 0 "C15" H 10765 2196 50  0000 L CNN
-F 1 "100nF" H 10765 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 10688 2000 50  0001 C CNN
-F 3 "~" H 10650 2150 50  0001 C CNN
-	1    10650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1014,7 +921,10 @@ P 9750 2150
 F 0 "C13" H 9865 2196 50  0000 L CNN
 F 1 "100nF" H 9865 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 9788 2000 50  0001 C CNN
-F 3 "~" H 9750 2150 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01.pdf" H 9750 2150 50  0001 C CNN
+F 4 "Murata Electronics" H 9750 2150 50  0001 C CNN "Manufacturer"
+F 5 "GRM033C71C104KE14D" H 9750 2150 50  0001 C CNN "MPN"
+F 6 "0.1µF ±10% 16V Ceramic Capacitor X7S 0201 (0603 Metric)" H 9750 2150 50  0001 C CNN "Description"
 	1    9750 2150
 	1    0    0    -1  
 $EndComp
@@ -1528,11 +1438,6 @@ Wire Wire Line
 NoConn ~ 9450 1100
 Wire Wire Line
 	9750 1500 9450 1500
-Connection ~ 8250 1500
-Wire Wire Line
-	8150 1500 8250 1500
-Wire Wire Line
-	8250 1400 8250 1500
 Wire Wire Line
 	9450 1400 10200 1400
 Wire Wire Line
@@ -1541,8 +1446,6 @@ Wire Wire Line
 	9500 900  9450 900 
 Wire Wire Line
 	10200 1600 9450 1600
-Wire Wire Line
-	7750 1200 7750 900 
 $Comp
 L NRF52840-CKAA-R7:NRF52840-CKAA-R7 U3
 U 2 1 5EF52449
@@ -1557,36 +1460,23 @@ F 6 "IPC7351B" H 8850 1300 50  0001 L BNN "Field6"
 	2    8850 1300
 	-1   0    0    -1  
 $EndComp
-Connection ~ 7750 900 
+Connection ~ 7550 900 
 Wire Wire Line
-	8250 1000 8000 1000
+	8250 1000 7800 1000
 Wire Wire Line
-	8250 900  7750 900 
+	8250 900  7550 900 
 Wire Wire Line
-	7750 900  7350 900 
-Wire Wire Line
-	8250 1100 7350 1100
-Text Label 7350 1100 0    50   ~ 0
+	7550 900  7150 900 
+Text Label 7150 1100 0    50   ~ 0
 VDDH
-Text Label 7350 1000 0    50   ~ 0
+Text Label 7150 1000 0    50   ~ 0
 VDD_nRF
 Wire Wire Line
-	8000 1000 7350 1000
-Text Label 7350 900  0    50   ~ 0
+	7800 1000 7150 1000
+Text Label 7150 900  0    50   ~ 0
 VBUS
 Wire Wire Line
 	10200 2300 10200 2350
-$Comp
-L Device:C C14
-U 1 1 5EE7849D
-P 10200 2150
-F 0 "C14" H 10315 2196 50  0000 L CNN
-F 1 "100nF" H 10315 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 10238 2000 50  0001 C CNN
-F 3 "~" H 10200 2150 50  0001 C CNN
-	1    10200 2150
-	1    0    0    -1  
-$EndComp
 Connection ~ 4150 1250
 Wire Wire Line
 	6800 1150 6800 850 
@@ -1851,7 +1741,7 @@ F 2 "Shio:BGA94N35P10X10_360X354X51N" H 8850 4350 50  0001 L BNN
 F 3 "https://www.mouser.com/datasheet/2/297/nRF52840_PS_v1.1-1623672.pdf" H 8850 4350 50  0001 L BNN
 F 4 "Nordic" H 8850 4350 50  0001 L BNN "Manufacturer"
 F 5 "NRF52840-CKAA-R7" H 8850 4350 50  0001 L BNN "MPN"
-F 6 "" H 8850 4350 50  0001 L BNN "Field6"
+F 6 "WLCSP-94" H 8850 4350 50  0001 L BNN "Package"
 	1    8850 4350
 	1    0    0    -1  
 $EndComp
@@ -2050,8 +1940,6 @@ Wire Wire Line
 	5350 3300 5400 3300
 Text Notes 4800 2800 0    50   ~ 10
 ANTENNA
-Wire Wire Line
-	10050 3050 9950 3050
 $Comp
 L Device:R_Small_US R1
 U 1 1 5F140D7F
@@ -2201,5 +2089,158 @@ F 5 "GRM0335C1E120GA01D" V 10050 6500 50  0001 C CNN "MPN"
 F 6 "12pF ±2% 25V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)" V 10050 6500 50  0001 C CNN "Description"
 	1    10050 6500
 	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8250 1100 7150 1100
+Wire Wire Line
+	7550 1150 7550 900 
+$Comp
+L Device:C C8
+U 1 1 5F25D0D1
+P 7550 1300
+F 0 "C8" H 7550 1400 50  0000 L CNN
+F 1 "4.7uF" H 7550 1200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7588 1150 50  0001 C CNN
+F 3 "~" H 7550 1300 50  0001 C CNN
+F 4 "Capacitor, 0402, X7S, ±10%" H 7550 1300 50  0001 C CNN "Description"
+	1    7550 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F24DC3B
+P 7550 1550
+F 0 "#PWR06" H 7550 1300 50  0001 C CNN
+F 1 "GND" H 7555 1377 50  0000 C CNN
+F 2 "" H 7550 1550 50  0001 C CNN
+F 3 "" H 7550 1550 50  0001 C CNN
+	1    7550 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1550 7550 1500
+Wire Wire Line
+	7900 1500 7900 1400
+Wire Wire Line
+	7900 1400 8250 1400
+Wire Wire Line
+	8250 1500 7950 1500
+Text Label 7950 1500 0    50   ~ 0
+VSS_PA
+Wire Wire Line
+	7800 1000 7800 1150
+$Comp
+L Device:C C7
+U 1 1 5F25C9E7
+P 7800 1300
+F 0 "C7" H 7800 1400 50  0000 L CNN
+F 1 "4.7uF" H 7800 1200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7838 1150 50  0001 C CNN
+F 3 "~" H 7800 1300 50  0001 C CNN
+F 4 "Capacitor, 0402, X7R, ±10%" H 7800 1300 50  0001 C CNN "Description"
+	1    7800 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1500 7800 1500
+Wire Wire Line
+	7800 1450 7800 1500
+Connection ~ 7800 1500
+Wire Wire Line
+	7800 1500 7900 1500
+Wire Wire Line
+	7550 1450 7550 1500
+Connection ~ 7550 1500
+Wire Wire Line
+	10050 3050 9950 3050
+Wire Wire Line
+	10650 3050 10950 3050
+$Comp
+L Device:L L4
+U 1 1 5ECBE1B9
+P 10200 3050
+F 0 "L4" V 10019 3050 50  0000 C CNN
+F 1 "3.9nH" V 10110 3050 50  0000 C CNN
+F 2 "Inductor_SMD:L_0201_0603Metric" H 10200 3050 50  0001 C CNN
+F 3 "~" H 10200 3050 50  0001 C CNN
+F 4 "High frequency chip inductor ±5%" V 10200 3050 50  0001 C CNN "Description"
+	1    10200 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L5
+U 1 1 5EDAB8E2
+P 10500 3050
+F 0 "L5" V 10319 3050 50  0000 C CNN
+F 1 "4.7nH" V 10410 3050 50  0000 C CNN
+F 2 "Inductor_SMD:L_0201_0603Metric" H 10500 3050 50  0001 C CNN
+F 3 "~" H 10500 3050 50  0001 C CNN
+F 4 "High frequency chip inductor ±5%" V 10500 3050 50  0001 C CNN "Description"
+	1    10500 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 10350 3050
+$Comp
+L Device:C C16
+U 1 1 5ECC1A44
+P 10350 3200
+F 0 "C16" H 10465 3246 50  0000 L CNN
+F 1 "1pF" H 10465 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 10388 3050 50  0001 C CNN
+F 3 "~" H 10350 3200 50  0001 C CNN
+F 4 "Capacitor, 0201, NP0, ±5%" H 10350 3200 50  0001 C CNN "Description"
+	1    10350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5ECC4EC4
+P 10350 3400
+F 0 "#PWR020" H 10350 3150 50  0001 C CNN
+F 1 "GND" H 10355 3227 50  0000 C CNN
+F 2 "" H 10350 3400 50  0001 C CNN
+F 3 "" H 10350 3400 50  0001 C CNN
+	1    10350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 3400 10350 3350
+Wire Wire Line
+	10350 3350 10950 3350
+Connection ~ 10350 3350
+Text Label 10950 3350 2    50   ~ 0
+VSS_PA
+Wire Wire Line
+	9750 2000 10200 2000
+$Comp
+L Device:C C14
+U 1 1 5F74DBA4
+P 10200 2150
+F 0 "C14" H 10315 2196 50  0000 L CNN
+F 1 "100nF" H 10315 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 10238 2000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01.pdf" H 10200 2150 50  0001 C CNN
+F 4 "Murata Electronics" H 10200 2150 50  0001 C CNN "Manufacturer"
+F 5 "GRM033C71C104KE14D" H 10200 2150 50  0001 C CNN "MPN"
+F 6 "0.1µF ±10% 16V Ceramic Capacitor X7S 0201 (0603 Metric)" H 10200 2150 50  0001 C CNN "Description"
+	1    10200 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 10200 2000
+Wire Wire Line
+	10200 2000 10650 2000
+$Comp
+L Device:C C15
+U 1 1 5F74DF57
+P 10650 2150
+F 0 "C15" H 10765 2196 50  0000 L CNN
+F 1 "100nF" H 10765 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 10688 2000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01.pdf" H 10650 2150 50  0001 C CNN
+F 4 "Murata Electronics" H 10650 2150 50  0001 C CNN "Manufacturer"
+F 5 "GRM033C71C104KE14D" H 10650 2150 50  0001 C CNN "MPN"
+F 6 "0.1µF ±10% 16V Ceramic Capacitor X7S 0201 (0603 Metric)" H 10650 2150 50  0001 C CNN "Description"
+	1    10650 2150
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
