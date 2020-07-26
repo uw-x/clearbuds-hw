@@ -1203,7 +1203,7 @@ F 0 "C4" H 6700 1400 50  0000 L CNN
 F 1 "22uF" H 6700 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6638 1200 50  0001 C CNN
 F 3 "~" H 6600 1350 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 6600 1350 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 6600 1350 50  0001 C CNN "Description"
 	1    6600 1350
 	1    0    0    -1  
 $EndComp
@@ -1215,7 +1215,7 @@ F 0 "C9" H 4250 1500 50  0000 L CNN
 F 1 "10uF" H 4150 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 1300 50  0001 C CNN
 F 3 "~" H 4450 1450 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 4450 1450 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 4450 1450 50  0001 C CNN "Description"
 	1    4450 1450
 	1    0    0    -1  
 $EndComp
@@ -1227,7 +1227,7 @@ F 0 "C11" H 2050 2700 50  0000 L CNN
 F 1 "1uF" H 2050 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2338 2500 50  0001 C CNN
 F 3 "~" H 2300 2650 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 2300 2650 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 2300 2650 50  0001 C CNN "Description"
 	1    2300 2650
 	1    0    0    -1  
 $EndComp
@@ -1622,7 +1622,7 @@ F 0 "C17" H 2300 7150 50  0000 L CNN
 F 1 "1uF" H 2250 7050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2538 6950 50  0001 C CNN
 F 3 "~" H 2500 7100 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 2500 7100 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 2500 7100 50  0001 C CNN "Description"
 	1    2500 7100
 	1    0    0    -1  
 $EndComp
