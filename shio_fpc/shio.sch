@@ -222,12 +222,13 @@ P 3300 3800
 F 0 "MK1" H 3300 4267 50  0000 C CNN
 F 1 "ICS-41350" H 3300 4176 50  0000 C CNN
 F 2 "Shio:MIC_ICS-41350" H 3300 3800 50  0001 L BNN
-F 3 "" H 3300 3800 50  0001 L BNN
+F 3 "https://invensense.tdk.com/wp-content/uploads/2016/02/DS-000047-ICS-41350-v1.1.pdf?ref_disty=digikey" H 3300 3800 50  0001 L BNN
 F 4 "Bottom Port PDM Low Power muti-Mode Microphone with high AOP Mode" H 3300 3800 50  0001 L BNN "Description"
 F 5 "" H 3300 3800 50  0001 L BNN "Field5"
 F 6 "ICS-41350" H 3300 3800 50  0001 L BNN "MPN"
 F 7 "1.30 USD" H 3300 3800 50  0001 L BNN "Cost"
 F 8 "TDK-InvenSense" H 3300 3800 50  0001 L BNN "Manufacturer"
+F 9 "1428-1064-1-ND" H 3300 3800 50  0001 C CNN "Digi-Key_PN"
 	1    3300 3800
 	1    0    0    -1  
 $EndComp
@@ -403,6 +404,7 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E120GA0
 F 4 "Murata Electronics" V 7300 6200 50  0001 C CNN "Manufacturer"
 F 5 "GRM0335C1E120GA01D" V 7300 6200 50  0001 C CNN "MPN"
 F 6 "12pF ±2% 25V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)" V 7300 6200 50  0001 C CNN "Description"
+F 7 "490-11967-1-ND" H 7300 6200 50  0001 C CNN "Digi-Key_PN"
 	1    7300 6200
 	0    1    -1   0   
 $EndComp
@@ -414,6 +416,9 @@ F 0 "R7" V 7045 2400 50  0000 C CNN
 F 1 "0R" V 7136 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7250 2400 50  0001 C CNN
 F 3 "~" H 7250 2400 50  0001 C CNN
+F 4 "311-0.0LRCT-ND" H 7250 2400 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0402FR-070RL" H 7250 2400 50  0001 C CNN "MPN"
+F 6 "Yageo" H 7250 2400 50  0001 C CNN "Manufacturer"
 	1    7250 2400
 	0    -1   1    0   
 $EndComp
@@ -458,8 +463,9 @@ F 1 "10uH" V 9799 750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 9700 750 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf?ref_disty=digikey" H 9700 750 50  0001 C CNN
 F 4 "10µH Shielded Multilayer Inductor 300mA 600mOhm 0603 (1608 Metric)" V 9700 750 50  0001 C CNN "Description"
-F 5 "TDK" V 9700 750 50  0001 C CNN "Manufacturer"
+F 5 "TDK Corporation" V 9700 750 50  0001 C CNN "Manufacturer"
 F 6 "MLZ1608N100LT000" V 9700 750 50  0001 C CNN "MPN"
+F 7 "445-6755-1-ND" H 9700 750 50  0001 C CNN "Digi-Key_PN"
 	1    9700 750 
 	0    1    -1   0   
 $EndComp
@@ -471,7 +477,10 @@ F 0 "C6" V 9850 1200 50  0000 C CNN
 F 1 "100nF" V 9850 1500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 9938 1150 50  0001 C CNN
 F 3 "~" H 9900 1300 50  0001 C CNN
-F 4 "Capacitor, X7R, ±10%" V 9900 1300 50  0001 C CNN "Description"
+F 4 "Capacitor, 0201, X7R, ±10%" V 9900 1300 50  0001 C CNN "Description"
+F 5 "1276-1013-1-ND" H 9900 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL03A104KQ3NNNC" H 9900 1300 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 9900 1300 50  0001 C CNN "Manufacturer"
 	1    9900 1300
 	0    -1   1    0   
 $EndComp
@@ -499,6 +508,9 @@ F 1 "1uF" H 11015 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10938 750 50  0001 C CNN
 F 3 "~" H 10900 900 50  0001 C CNN
 F 4 "Capacitor, 0402, X7R, ±10%" H 10900 900 50  0001 C CNN "Description"
+F 5 "490-13339-1-ND" H 10900 900 50  0001 C CNN "Digi-Key_PN"
+F 6 "GRM155R70J105KA12J" H 10900 900 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 10900 900 50  0001 C CNN "Manufacturer"
 	1    10900 900 
 	-1   0    0    -1  
 $EndComp
@@ -511,6 +523,9 @@ F 1 "47nF" H 10665 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 10588 750 50  0001 C CNN
 F 3 "~" H 10550 900 50  0001 C CNN
 F 4 "Capacitor, 0201, X7R, ±10%" H 10550 900 50  0001 C CNN "Description"
+F 5 "1276-1336-1-ND" H 10550 900 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL03A473KQ3NNNC" H 10550 900 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 10550 900 50  0001 C CNN "Manufacturer"
 	1    10550 900 
 	-1   0    0    -1  
 $EndComp
@@ -527,7 +542,10 @@ F 0 "C3" V 9850 900 50  0000 C CNN
 F 1 "4.7uF" V 9850 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9938 850 50  0001 C CNN
 F 3 "~" H 9900 1000 50  0001 C CNN
-F 4 "Capacitor, 0402, X7R, ±10%" V 9900 1000 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" V 9900 1000 50  0001 C CNN "Description"
+F 5 "1276-1480-1-ND" H 9900 1000 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL05A475KP5NRNC" H 9900 1000 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 9900 1000 50  0001 C CNN "Manufacturer"
 	1    9900 1000
 	0    -1   1    0   
 $EndComp
@@ -553,6 +571,7 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0015.pdf" H 10000
 F 4 "Murata Electronics" V 10000 750 50  0001 C CNN "Manufacturer"
 F 5 "LQP03TN15NJ02D" V 10000 750 50  0001 C CNN "MPN"
 F 6 "15nH Unshielded Thick Film Inductor 250mA 700mOhm Max 0201 (0603 Metric)" V 10000 750 50  0001 C CNN "Description"
+F 7 "490-5570-1-ND" H 10000 750 50  0001 C CNN "Digi-Key_PN"
 	1    10000 750 
 	0    1    -1   0   
 $EndComp
@@ -565,6 +584,9 @@ F 1 "820pF" V 9850 1700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 9938 1350 50  0001 C CNN
 F 3 "~" H 9900 1500 50  0001 C CNN
 F 4 "Capacitor, 0201, X7R, ±10%" V 9900 1500 50  0001 C CNN "Description"
+F 5 "490-16368-1-ND" H 9900 1500 50  0001 C CNN "Digi-Key_PN"
+F 6 "GRM0335C1E821JA01D" H 9900 1500 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 9900 1500 50  0001 C CNN "Manufacturer"
 	1    9900 1500
 	0    -1   1    0   
 $EndComp
@@ -585,6 +607,7 @@ F 3 "https://www.jauch.com/downloadfile/5887341fd9d6d_e24753b87ed34902e36f/jxs21
 F 4 "32MHz ±10ppm Crystal 8pF 50 Ohms 4-SMD, No Lead" V 7600 6350 50  0001 C CNN "Description"
 F 5 "Jauch Quartz" V 7600 6350 50  0001 C CNN "Manufacturer"
 F 6 "Q 32,0-JXS21-8-10/10-FU-WA-LF" V 7600 6350 50  0001 C CNN "MPN"
+F 7 "1908-1284-1-ND" H 7600 6350 50  0001 C CNN "Digi-Key_PN"
 	1    7600 6350
 	0    -1   -1   0   
 $EndComp
@@ -624,6 +647,10 @@ F 0 "R25" V 7350 5250 50  0000 C CNN
 F 1 "0R" V 7350 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7300 5350 50  0001 C CNN
 F 3 "~" H 7300 5350 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 7300 5350 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 7300 5350 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 7300 5350 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7300 5350 50  0001 C CNN "Manufacturer"
 	1    7300 5350
 	0    1    1    0   
 $EndComp
@@ -639,6 +666,10 @@ F 0 "R23" V 7550 5150 50  0000 C CNN
 F 1 "0R" V 7550 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7600 5250 50  0001 C CNN
 F 3 "~" H 7600 5250 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 7600 5250 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 7600 5250 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 7600 5250 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7600 5250 50  0001 C CNN "Manufacturer"
 	1    7600 5250
 	0    1    1    0   
 $EndComp
@@ -652,6 +683,10 @@ F 0 "R22" V 7250 5050 50  0000 C CNN
 F 1 "0R" V 7250 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7300 5150 50  0001 C CNN
 F 3 "~" H 7300 5150 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 7300 5150 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 7300 5150 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 7300 5150 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7300 5150 50  0001 C CNN "Manufacturer"
 	1    7300 5150
 	0    1    1    0   
 $EndComp
@@ -667,6 +702,10 @@ F 0 "R21" V 7550 4950 50  0000 C CNN
 F 1 "0R" V 7550 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7600 5050 50  0001 C CNN
 F 3 "~" H 7600 5050 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 7600 5050 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 7600 5050 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 7600 5050 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7600 5050 50  0001 C CNN "Manufacturer"
 	1    7600 5050
 	0    1    1    0   
 $EndComp
@@ -680,6 +719,10 @@ F 0 "R20" V 7250 4850 50  0000 C CNN
 F 1 "0R" V 7250 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7300 4950 50  0001 C CNN
 F 3 "~" H 7300 4950 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 7300 4950 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 7300 4950 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 7300 4950 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7300 4950 50  0001 C CNN "Manufacturer"
 	1    7300 4950
 	0    1    1    0   
 $EndComp
@@ -695,6 +738,10 @@ F 0 "R19" V 7550 4650 50  0000 C CNN
 F 1 "0R" V 7550 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7600 4750 50  0001 C CNN
 F 3 "~" H 7600 4750 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 7600 4750 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 7600 4750 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 7600 4750 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7600 4750 50  0001 C CNN "Manufacturer"
 	1    7600 4750
 	0    1    1    0   
 $EndComp
@@ -807,17 +854,15 @@ $EndComp
 Wire Wire Line
 	5950 5150 5950 5100
 Wire Wire Line
-	5250 5250 5500 5250
-Text Label 5450 5250 2    50   ~ 0
+	5250 5350 5500 5350
+Text Label 5450 5350 2    50   ~ 0
 LED2
-Text Label 5050 5250 2    50   ~ 0
+Text Label 5050 5350 2    50   ~ 0
 LED1
 Wire Wire Line
-	5500 5250 5500 5050
+	5500 5350 5500 5150
 Wire Wire Line
-	5100 5250 5100 5050
-Wire Wire Line
-	4850 5250 5100 5250
+	4850 5350 5100 5350
 Text Label 5450 4600 2    50   ~ 0
 VDD_nRF
 Wire Wire Line
@@ -835,6 +880,9 @@ F 1 "220R" V 5386 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 5500 4750 50  0001 C CNN
 F 3 "~" H 5500 4750 50  0001 C CNN
 F 4 "Resistor, ±1%, 0.05W" V 5500 4750 50  0001 C CNN "Description"
+F 5 "311-220NCT-ND" H 5500 4750 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-07220RL" H 5500 4750 50  0001 C CNN "MPN"
+F 7 "Yageo" H 5500 4750 50  0001 C CNN "Manufacturer"
 	1    5500 4750
 	1    0    0    -1  
 $EndComp
@@ -847,31 +895,34 @@ F 1 "220R" V 4986 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 5100 4750 50  0001 C CNN
 F 3 "~" H 5100 4750 50  0001 C CNN
 F 4 "Resistor, ±1%, 0.05W" V 5100 4750 50  0001 C CNN "Description"
+F 5 "311-220NCT-ND" H 5100 4750 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-07220RL" H 5100 4750 50  0001 C CNN "MPN"
+F 7 "Yageo" H 5100 4750 50  0001 C CNN "Manufacturer"
 	1    5100 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small_ALT D1
 U 1 1 5EDE52E7
-P 5100 4950
-F 0 "D1" H 5100 5185 50  0000 C CNN
-F 1 "LED2" H 5100 5094 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" V 5100 4950 50  0001 C CNN
-F 3 "~" V 5100 4950 50  0001 C CNN
-F 4 "350-4450-1-ND" H 5100 4950 50  0001 C CNN "Digi-Key_PN"
-	1    5100 4950
+P 5100 5050
+F 0 "D1" H 5100 5285 50  0000 C CNN
+F 1 "LED1 RED" H 5100 5194 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" V 5100 5050 50  0001 C CNN
+F 3 "~" V 5100 5050 50  0001 C CNN
+F 4 "350-4447-1-ND" H 5100 5050 50  0001 C CNN "Digi-Key_PN"
+	1    5100 5050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small_ALT D2
 U 1 1 5EDE50AE
-P 5500 4950
-F 0 "D2" H 5500 5185 50  0000 C CNN
-F 1 "LED1" H 5500 5094 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" V 5500 4950 50  0001 C CNN
-F 3 "~" V 5500 4950 50  0001 C CNN
-F 4 "350-4448-1-ND" H 5500 4950 50  0001 C CNN "Digi-Key_PN"
-	1    5500 4950
+P 5500 5050
+F 0 "D2" H 5500 5285 50  0000 C CNN
+F 1 "LED2 ORG" H 5500 5200 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" V 5500 5050 50  0001 C CNN
+F 3 "~" V 5500 5050 50  0001 C CNN
+F 4 "350-4448-1-ND" H 5500 5050 50  0001 C CNN "Digi-Key_PN"
+	1    5500 5050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -894,6 +945,9 @@ F 1 "1uF" H 9415 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9338 2000 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
 F 4 "Capacitor, 0402, X7R, ±10%" H 9300 2150 50  0001 C CNN "Description"
+F 5 "490-13339-1-ND" H 9300 2150 50  0001 C CNN "Digi-Key_PN"
+F 6 "GRM155R70J105KA12J" H 9300 2150 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 9300 2150 50  0001 C CNN "Manufacturer"
 	1    9300 2150
 	1    0    0    -1  
 $EndComp
@@ -930,6 +984,7 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE1
 F 4 "Murata Electronics" H 9750 2150 50  0001 C CNN "Manufacturer"
 F 5 "GRM033C71C104KE14D" H 9750 2150 50  0001 C CNN "MPN"
 F 6 "0.1µF ±10% 16V Ceramic Capacitor X7S 0201 (0603 Metric)" H 9750 2150 50  0001 C CNN "Description"
+F 7 "490-10387-1-ND" H 9750 2150 50  0001 C CNN "Digi-Key_PN"
 	1    9750 2150
 	1    0    0    -1  
 $EndComp
@@ -1093,6 +1148,9 @@ F 1 "LM66100DCKT" H 3250 2631 60  0000 C CNN
 F 2 "Shio:LM66100DCKT" H 3250 2590 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm66100.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1591950231750" H 2450 2350 60  0001 C CNN
 F 4 "296-53540-1-ND" H 2450 2350 50  0001 C CNN "Digi-Key_PN"
+F 5 "OR Controller  P-Channel 1:1 SC-70-6" H 2450 2350 50  0001 C CNN "Description"
+F 6 "LM66100DCKT" H 2450 2350 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 2450 2350 50  0001 C CNN "Manufacturer"
 	1    2450 2350
 	1    0    0    -1  
 $EndComp
@@ -1169,6 +1227,10 @@ F 0 "R5" V 2100 2350 50  0000 C CNN
 F 1 "0R" V 2100 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 2050 2450 50  0001 C CNN
 F 3 "~" H 2050 2450 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 2050 2450 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 2050 2450 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 2050 2450 50  0001 C CNN "MPN"
+F 7 "Yageo" H 2050 2450 50  0001 C CNN "Manufacturer"
 	1    2050 2450
 	0    1    1    0   
 $EndComp
@@ -1180,6 +1242,10 @@ F 0 "R2" V 2050 1150 50  0000 C CNN
 F 1 "0R" V 2050 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 2100 1250 50  0001 C CNN
 F 3 "~" H 2100 1250 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 2100 1250 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 2100 1250 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 2100 1250 50  0001 C CNN "MPN"
+F 7 "Yageo" H 2100 1250 50  0001 C CNN "Manufacturer"
 	1    2100 1250
 	0    1    1    0   
 $EndComp
@@ -1203,7 +1269,10 @@ F 0 "C4" H 6700 1400 50  0000 L CNN
 F 1 "22uF" H 6700 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6638 1200 50  0001 C CNN
 F 3 "~" H 6600 1350 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 6600 1350 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 6600 1350 50  0001 C CNN "Description"
+F 5 "1276-7090-1-ND" H 6600 1350 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL05A226MQ5N6J8" H 6600 1350 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 6600 1350 50  0001 C CNN "Manufacturer"
 	1    6600 1350
 	1    0    0    -1  
 $EndComp
@@ -1215,7 +1284,10 @@ F 0 "C9" H 4250 1500 50  0000 L CNN
 F 1 "10uF" H 4150 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 1300 50  0001 C CNN
 F 3 "~" H 4450 1450 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 4450 1450 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 4450 1450 50  0001 C CNN "Description"
+F 5 "1276-1450-1-ND" H 4450 1450 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL05A106MP5NUNC" H 4450 1450 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics	" H 4450 1450 50  0001 C CNN "Manufacturer"
 	1    4450 1450
 	1    0    0    -1  
 $EndComp
@@ -1227,7 +1299,10 @@ F 0 "C11" H 2050 2700 50  0000 L CNN
 F 1 "1uF" H 2050 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2338 2500 50  0001 C CNN
 F 3 "~" H 2300 2650 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 2300 2650 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 2300 2650 50  0001 C CNN "Description"
+F 5 "1276-1010-1-ND" H 2300 2650 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL05A105KQ5NNNC" H 2300 2650 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 2300 2650 50  0001 C CNN "Manufacturer"
 	1    2300 2650
 	1    0    0    -1  
 $EndComp
@@ -1297,6 +1372,9 @@ F 1 "LM66100DCKT" H 3250 1431 60  0000 C CNN
 F 2 "Shio:LM66100DCKT" H 3250 1390 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm66100.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1591950231750" H 2450 1150 60  0001 C CNN
 F 4 "296-53540-1-ND" H 2450 1150 50  0001 C CNN "Digi-Key_PN"
+F 5 "OR Controller  P-Channel 1:1 SC-70-6" H 2450 1150 50  0001 C CNN "Description"
+F 6 "LM66100DCKT" H 2450 1150 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 2450 1150 50  0001 C CNN "Manufacturer"
 	1    2450 1150
 	1    0    0    -1  
 $EndComp
@@ -1307,8 +1385,11 @@ P 6500 900
 F 0 "L1" H 6650 950 50  0000 C CNN
 F 1 "2.2uH" H 6650 850 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 6500 900 50  0001 C CNN
-F 3 "~" H 6500 900 50  0001 C CNN
-F 4 "250mA Peak Current" H 6500 900 50  0001 C CNN "Description"
+F 3 "https://www.we-online.com/catalog/datasheet/7447860022.pdf" H 6500 900 50  0001 C CNN
+F 4 "Min 250mA Peak Current" H 6500 900 50  0001 C CNN "Description"
+F 5 "732-7447860022CT-ND" H 6500 900 50  0001 C CNN "Digi-Key_PN"
+F 6 "7447860022" H 6500 900 50  0001 C CNN "MPN"
+F 7 "Würth Elektronik" H 6500 900 50  0001 C CNN "Manufacturer"
 	1    6500 900 
 	1    0    0    -1  
 $EndComp
@@ -1331,7 +1412,10 @@ F 0 "C5" H 2000 1450 50  0000 L CNN
 F 1 "1uF" H 1950 1350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2238 1250 50  0001 C CNN
 F 3 "~" H 2200 1400 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 2200 1400 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 2200 1400 50  0001 C CNN "Description"
+F 5 "1276-1010-1-ND" H 2200 1400 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL05A105KQ5NNNC" H 2200 1400 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 2200 1400 50  0001 C CNN "Manufacturer"
 	1    2200 1400
 	1    0    0    -1  
 $EndComp
@@ -1423,6 +1507,9 @@ F 0 "R6" V 7045 2100 50  0000 C CNN
 F 1 "0R" V 7136 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7250 2100 50  0001 C CNN
 F 3 "~" H 7250 2100 50  0001 C CNN
+F 4 "311-0.0LRCT-ND" H 7250 2100 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0402FR-070RL" H 7250 2100 50  0001 C CNN "MPN"
+F 6 "Yageo" H 7250 2100 50  0001 C CNN "Manufacturer"
 	1    7250 2100
 	0    -1   1    0   
 $EndComp
@@ -1605,6 +1692,7 @@ F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3250 7450 50  0001 C CNN
 F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 3250 7000 50  0001 C CNN
 F 4 "SiP32431DR3" H 3250 7000 50  0001 C CNN "MPN"
 F 5 "Vishay Siliconix" H 3250 7000 50  0001 C CNN "Manufacturer"
+F 6 "SIP32431DR3-T1GE3CT-ND" H 3250 7000 50  0001 C CNN "Digi-Key_PN"
 	1    3250 7000
 	1    0    0    -1  
 $EndComp
@@ -1618,11 +1706,14 @@ $Comp
 L Device:C C17
 U 1 1 5FC597EB
 P 2500 7100
-F 0 "C17" H 2300 7150 50  0000 L CNN
+F 0 "C17" H 2250 7150 50  0000 L CNN
 F 1 "1uF" H 2250 7050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2538 6950 50  0001 C CNN
 F 3 "~" H 2500 7100 50  0001 C CNN
-F 4 "Capacitor, 0201, X5R, ±10%" H 2500 7100 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 2500 7100 50  0001 C CNN "Description"
+F 5 "1276-1010-1-ND" H 2500 7100 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL05A105KQ5NNNC" H 2500 7100 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 2500 7100 50  0001 C CNN "Manufacturer"
 	1    2500 7100
 	1    0    0    -1  
 $EndComp
@@ -1636,6 +1727,9 @@ F 0 "R30" V 2595 6900 50  0000 C CNN
 F 1 "0R" V 2686 6900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2800 6900 50  0001 C CNN
 F 3 "~" H 2800 6900 50  0001 C CNN
+F 4 "311-0.0LRCT-ND" H 2800 6900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0402FR-070RL" H 2800 6900 50  0001 C CNN "MPN"
+F 6 "Yageo" H 2800 6900 50  0001 C CNN "Manufacturer"
 	1    2800 6900
 	0    1    1    0   
 $EndComp
@@ -1690,6 +1784,7 @@ F 4 "XTAL SMD 3215, 32.768kHz, 9pF, ±20ppm" V 10450 6350 50  0001 C CNN "Descri
 F 5 "XTAL_3215" V 10450 6350 50  0001 C CNN "Package"
 F 6 "NDK America, Inc." V 10450 6350 50  0001 C CNN "Manufacturer"
 F 7 "NX3215SA-32.768K-STD-MUA-9" V 10450 6350 50  0001 C CNN "MPN"
+F 8 "644-1155-1-ND" H 10450 6350 50  0001 C CNN "Digi-Key_PN"
 	1    10450 6350
 	0    -1   -1   0   
 $EndComp
@@ -1779,7 +1874,8 @@ F 0 "C24" V 5350 3250 50  0000 L CNN
 F 1 "1pF" V 5250 3250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 5138 3150 50  0001 C CNN
 F 3 "~" H 5100 3300 50  0001 C CNN
-F 4 "500R07S1R0BV4T" V 5100 3300 50  0001 C CNN "Digi-Key_PN"
+F 4 "712-1266-1-ND" V 5100 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "500R07S1R0BV4T" H 5100 3300 50  0001 C CNN "MPN"
 	1    5100 3300
 	0    1    1    0   
 $EndComp
@@ -1829,6 +1925,7 @@ F 1 "100nF" H 2915 4905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2838 4800 50  0001 C CNN
 F 3 "~" H 2800 4950 50  0001 C CNN
 F 4 "Capacitor, 0201, X5R, ±10%" H 2800 4950 50  0001 C CNN "Description"
+F 5 "490-12686-1-ND" H 2800 4950 50  0001 C CNN "Digi-Key_PN"
 	1    2800 4950
 	-1   0    0    -1  
 $EndComp
@@ -1905,7 +2002,10 @@ F 0 "L6" V 5369 3300 50  0000 C CNN
 F 1 "3.9nH" V 5460 3300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0201_0603Metric" H 5550 3300 50  0001 C CNN
 F 3 "~" H 5550 3300 50  0001 C CNN
-F 4 "L-07C3N9SV6T" V 5550 3300 50  0001 C CNN "Digi-Key_PN"
+F 4 "712-1459-1-ND" V 5550 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "3.9nH Unshielded Multilayer Inductor 300mA 220mOhm Max 0402 (1005 Metric) " H 5550 3300 50  0001 C CNN "Description"
+F 6 "L-07C3N9SV6T" H 5550 3300 50  0001 C CNN "MPN"
+F 7 "Johanson Technology Inc." H 5550 3300 50  0001 C CNN "Manufacturer"
 	1    5550 3300
 	0    -1   -1   0   
 $EndComp
@@ -1948,7 +2048,10 @@ F 0 "L7" H 5200 3700 50  0000 C CNN
 F 1 "2.7nH" H 5200 3600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0201_0603Metric" H 5350 3650 50  0001 C CNN
 F 3 "~" H 5350 3650 50  0001 C CNN
-F 4 "L-07C2N7SV6T " H 5350 3650 50  0001 C CNN "Digi-Key_PN"
+F 4 "712-1415-1-ND" H 5350 3650 50  0001 C CNN "Digi-Key_PN"
+F 5 "2.7nH Unshielded Multilayer Inductor 300mA 170mOhm Max 0402 (1005 Metric) " H 5350 3650 50  0001 C CNN "Description"
+F 6 "L-07C2N7SV6T " H 5350 3650 50  0001 C CNN "MPN"
+F 7 "Johanson Technology Inc." H 5350 3650 50  0001 C CNN "Manufacturer"
 	1    5350 3650
 	-1   0    0    1   
 $EndComp
@@ -1997,6 +2100,7 @@ F 1 "100nF" H 3815 7055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3738 6950 50  0001 C CNN
 F 3 "~" H 3700 7100 50  0001 C CNN
 F 4 "Capacitor, 0201, X5R, ±10%" H 3700 7100 50  0001 C CNN "Description"
+F 5 "490-12686-1-ND" H 3700 7100 50  0001 C CNN "Digi-Key_PN"
 	1    3700 7100
 	1    0    0    -1  
 $EndComp
@@ -2021,6 +2125,10 @@ F 0 "R33" V 7250 4550 50  0000 C CNN
 F 1 "0R" V 7250 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7300 4650 50  0001 C CNN
 F 3 "~" H 7300 4650 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/20W 0201" H 7300 4650 50  0001 C CNN "Description"
+F 5 "311-0.0NCT-ND" H 7300 4650 50  0001 C CNN "Digi-Key_PN"
+F 6 "RC0201JR-070RL" H 7300 4650 50  0001 C CNN "MPN"
+F 7 "Yageo" H 7300 4650 50  0001 C CNN "Manufacturer"
 	1    7300 4650
 	0    1    1    0   
 $EndComp
@@ -2067,6 +2175,7 @@ F 3 "https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-001-thm.pdf" H 1
 F 4 "Linx Technologies Inc." V 1050 1200 50  0001 C CNN "Manufacturer"
 F 5 "BAT-HLD-001-THM" V 1050 1200 50  0001 C CNN "MPN"
 F 6 "BATTERY RETAINER COIN PC PIN" V 1050 1200 50  0001 C CNN "Description"
+F 7 "BAT-HLD-001-THM-ND" H 1050 1200 50  0001 C CNN "Digi-Key_PN"
 	1    1050 1200
 	0    -1   -1   0   
 $EndComp
@@ -2081,6 +2190,7 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E120GA0
 F 4 "Murata Electronics" V 7300 6500 50  0001 C CNN "Manufacturer"
 F 5 "GRM0335C1E120GA01D" V 7300 6500 50  0001 C CNN "MPN"
 F 6 "12pF ±2% 25V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)" V 7300 6500 50  0001 C CNN "Description"
+F 7 "490-11967-1-ND" H 7300 6500 50  0001 C CNN "Digi-Key_PN"
 	1    7300 6500
 	0    1    -1   0   
 $EndComp
@@ -2095,6 +2205,7 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E120GA0
 F 4 "Murata Electronics" V 10050 6200 50  0001 C CNN "Manufacturer"
 F 5 "GRM0335C1E120GA01D" V 10050 6200 50  0001 C CNN "MPN"
 F 6 "12pF ±2% 25V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)" V 10050 6200 50  0001 C CNN "Description"
+F 7 "490-11967-1-ND" H 10050 6200 50  0001 C CNN "Digi-Key_PN"
 	1    10050 6200
 	0    1    -1   0   
 $EndComp
@@ -2109,6 +2220,7 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E120GA0
 F 4 "Murata Electronics" V 10050 6500 50  0001 C CNN "Manufacturer"
 F 5 "GRM0335C1E120GA01D" V 10050 6500 50  0001 C CNN "MPN"
 F 6 "12pF ±2% 25V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)" V 10050 6500 50  0001 C CNN "Description"
+F 7 "490-11967-1-ND" H 10050 6500 50  0001 C CNN "Digi-Key_PN"
 	1    10050 6500
 	0    1    -1   0   
 $EndComp
@@ -2125,6 +2237,9 @@ F 1 "4.7uF" H 7550 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7588 1150 50  0001 C CNN
 F 3 "~" H 7550 1300 50  0001 C CNN
 F 4 "Capacitor, 0402, X7S, ±10%" H 7550 1300 50  0001 C CNN "Description"
+F 5 "445-8017-1-ND" H 7550 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "C1005X6S0G475M050BC" H 7550 1300 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 7550 1300 50  0001 C CNN "Manufacturer"
 	1    7550 1300
 	-1   0    0    -1  
 $EndComp
@@ -2159,7 +2274,10 @@ F 0 "C7" H 7800 1400 50  0000 L CNN
 F 1 "4.7uF" H 7800 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7838 1150 50  0001 C CNN
 F 3 "~" H 7800 1300 50  0001 C CNN
-F 4 "Capacitor, 0402, X7R, ±10%" H 7800 1300 50  0001 C CNN "Description"
+F 4 "Capacitor, 0402, X5R, ±10%" H 7800 1300 50  0001 C CNN "Description"
+F 5 "1276-1480-1-ND" H 7800 1300 50  0001 C CNN "Digi-Key_PN"
+F 6 "CL05A475KP5NRNC" H 7800 1300 50  0001 C CNN "MPN"
+F 7 "Samsung Electro-Mechanics" H 7800 1300 50  0001 C CNN "Manufacturer"
 	1    7800 1300
 	-1   0    0    -1  
 $EndComp
@@ -2186,6 +2304,9 @@ F 1 "3.9nH" V 10110 3050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0201_0603Metric" H 10200 3050 50  0001 C CNN
 F 3 "~" H 10200 3050 50  0001 C CNN
 F 4 "High frequency chip inductor ±5%" V 10200 3050 50  0001 C CNN "Description"
+F 5 "445-174884-1-ND" H 10200 3050 50  0001 C CNN "Digi-Key_PN"
+F 6 "MLG0603PPA3N9CT000" H 10200 3050 50  0001 C CNN "MPN"
+F 7 "TDK Corporation" H 10200 3050 50  0001 C CNN "Manufacturer"
 	1    10200 3050
 	0    1    1    0   
 $EndComp
@@ -2198,6 +2319,9 @@ F 1 "4.7nH" V 10410 3050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0201_0603Metric" H 10500 3050 50  0001 C CNN
 F 3 "~" H 10500 3050 50  0001 C CNN
 F 4 "High frequency chip inductor ±5%" V 10500 3050 50  0001 C CNN "Description"
+F 5 "490-7788-1-ND" H 10500 3050 50  0001 C CNN "Digi-Key_PN"
+F 6 "LQP03TN4N7H02D" H 10500 3050 50  0001 C CNN "MPN"
+F 7 "Murata Electronics" H 10500 3050 50  0001 C CNN "Manufacturer"
 	1    10500 3050
 	0    1    1    0   
 $EndComp
@@ -2211,6 +2335,9 @@ F 1 "1pF" H 10465 3155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 10388 3050 50  0001 C CNN
 F 3 "~" H 10350 3200 50  0001 C CNN
 F 4 "Capacitor, 0201, NP0, ±5%" H 10350 3200 50  0001 C CNN "Description"
+F 5 "712-1181-1-ND" H 10350 3200 50  0001 C CNN "Digi-Key_PN"
+F 6 "250R05L1R0BV4T" H 10350 3200 50  0001 C CNN "MPN"
+F 7 "Johanson Technology Inc." H 10350 3200 50  0001 C CNN "Manufacturer"
 	1    10350 3200
 	1    0    0    -1  
 $EndComp
@@ -2245,6 +2372,7 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE1
 F 4 "Murata Electronics" H 10200 2150 50  0001 C CNN "Manufacturer"
 F 5 "GRM033C71C104KE14D" H 10200 2150 50  0001 C CNN "MPN"
 F 6 "0.1µF ±10% 16V Ceramic Capacitor X7S 0201 (0603 Metric)" H 10200 2150 50  0001 C CNN "Description"
+F 7 "490-10387-1-ND" H 10200 2150 50  0001 C CNN "Digi-Key_PN"
 	1    10200 2150
 	1    0    0    -1  
 $EndComp
@@ -2262,7 +2390,14 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE1
 F 4 "Murata Electronics" H 10650 2150 50  0001 C CNN "Manufacturer"
 F 5 "GRM033C71C104KE14D" H 10650 2150 50  0001 C CNN "MPN"
 F 6 "0.1µF ±10% 16V Ceramic Capacitor X7S 0201 (0603 Metric)" H 10650 2150 50  0001 C CNN "Description"
+F 7 "490-10387-1-ND" H 10650 2150 50  0001 C CNN "Digi-Key_PN"
 	1    10650 2150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5500 4950 5500 4850
+Wire Wire Line
+	5100 5350 5100 5150
+Wire Wire Line
+	5100 4950 5100 4850
 $EndSCHEMATC

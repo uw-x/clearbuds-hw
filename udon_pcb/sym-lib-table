@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name ICS-41350)(type Legacy)(uri /Users/ishanchatterjee/src/shio/shio-hw/libraries/ICS-41350.lib)(options "")(descr ""))
+  (lib (name NRF52840-CKAA-R7)(type Legacy)(uri /Users/ishanchatterjee/src/shio/shio-hw/libraries/NRF52840-CKAA-R7.lib)(options "")(descr ""))
+  (lib (name LM66100)(type Legacy)(uri /Users/ishanchatterjee/src/shio/shio-hw/libraries/LM66100.lib)(options "")(descr ""))
+  (lib (name MAX38640)(type Legacy)(uri /Users/ishanchatterjee/src/shio/shio-hw/libraries/MAX38640.lib)(options "")(descr ""))
+  (lib (name W25N01GVZEIG_TR)(type Legacy)(uri /Users/ishanchatterjee/src/shio/shio-hw/libraries/W25N01GVZEIG_TR.lib)(options "")(descr ""))
+  (lib (name BMA400)(type Legacy)(uri /Users/ishanchatterjee/src/shio/shio-hw/libraries/BMA400.lib)(options "")(descr ""))
+  (lib (name BAT-HLD-001-THM)(type Legacy)(uri /Users/ishanchatterjee/src/shio/shio-hw/libraries/BAT-HLD-001-THM.lib)(options "")(descr ""))
+)
