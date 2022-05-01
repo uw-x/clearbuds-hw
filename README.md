@@ -9,7 +9,7 @@ This directory contains the FPC (flexible printed circuit) design for ClearBuds.
 
 - KiCAD design files are in shio_fpc folder.
 - Fabrication output (Gerbers) are in shio_fpc/shio_rev_a_fab_v4. The suggested stack up is in shio_fpc/shio_stackup.xlsx. Suggested BOM is in shio_fpc/shio_BOM_rev_a_fab2_3.csv.
-- Schematic PDF can be found at shio_fpc/
+- Schematic PDF can be found at shio_fpc/shio_fpc_revA.pdf
 
 Errata: The design contains some errors that can be addressed in future revisions. The errors do not affect function, but do affect robustness. 1. Add 0.1uF decoupling capacitor to PDM mic (ICS-41350) Vcc. 2. Extend battery holder terminal pads further under solder mask to prevent pad tearout. 3. Consider using FR4 stiffener or RFPC to better support battery holder terminal pads to prevent pad tearout.
 
